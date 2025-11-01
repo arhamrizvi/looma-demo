@@ -136,6 +136,7 @@
       width: 100%;
       height: calc(100vh - 120px); /* fills screen minus top bar & footer */
       max-height: 100vh;
+      transition: height 0.3s ease;
     }
     .frame iframe {
       position: absolute;
@@ -143,6 +144,16 @@
       width: 100%;
       height: 100%;
       border: 0;
+    }
+
+     @media (max-width: 768px) {
+    .frame {
+      height: 100vh; /* true fullscreen on mobile */
+    }
+    body, html {
+      height: 100%;
+      overflow: hidden;
+    }
     }
 
 
@@ -204,5 +215,22 @@
       <div class="footer">© 2025 Looma by White Space Systems</div>
     </main>
   </div>
+
+  <script>
+  function adjustFrameHeight() {
+    const frame = document.querySelector('.frame');
+    if (!frame) return;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      const header = document.querySelector('.topbar')?.offsetHeight || 0;
+      const footer = document.querySelector('.footer')?.offsetHeight || 0;
+      const newHeight = window.innerHeight - (header + footer);
+      frame.style.height = `${newHeight}px`;
+    }
+  }
+  window.addEventListener('load', adjustFrameHeight);
+  window.addEventListener('resize', adjustFrameHeight);
+</script>
+
 </body>
 </html>
