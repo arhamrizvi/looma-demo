@@ -176,11 +176,11 @@
         <div class="name">Looma</div>
       </div>
       <nav class="nav" aria-label="Primary">
-        <a href="#"><span>🏠</span> <span>Overview</span></a>
-        <a href="#"><span>📊</span> <span>KPIs</span></a>
-        <a href="#"><span>⏱</span> <span>Utilization</span></a>
-        <a href="#"><span>🧑‍💻</span> <span>Users</span></a>
-        <a href="#"><span>⚙️</span> <span>Settings</span></a>
+        <a href="#overview"   data-key="overview"><span>🏠</span> <span>Overview</span></a>
+        <a href="#kpis"       data-key="kpis"><span>📊</span> <span>KPIs</span></a>
+        <a href="#utilization" data-key="utilization"><span>⏱</span> <span>Utilization</span></a>
+        <a href="#users"      data-key="users"><span>🧑‍💻</span> <span>Users</span></a>
+        <a href="#settings"   data-key="settings"><span>⚙️</span> <span>Settings</span></a>
       </nav>
     </aside>
 
@@ -215,6 +215,67 @@
       <div class="footer">© 2025 Looma by White Space Systems</div>
     </main>
   </div>
+
+  <script>
+  // 1) Put your page IDs here (from Step 1)
+  const PAGES = {
+    overview:    "qODdF", // replace with your real Overview page id
+    kpis:        "p_zv33720pxd", // <-- replace
+    utilization: "DE34F", // <-- replace
+    users:       "GH56I", // <-- replace
+    settings:    "JK78L"  // <-- replace
+  };
+
+  // 2) Base embed URL of your report (everything up to /page/<id>)
+  const BASE_EMBED = "https://lookerstudio.google.com/embed/reporting/ecca365c-5cf8-4736-8387-22e54c6e4c87/page/";
+
+  const frame = document.querySelector(".frame iframe");
+  const navLinks = document.querySelectorAll('.nav a');
+
+  function setActive(key){
+    navLinks.forEach(a => a.classList.toggle('active', a.dataset.key === key));
+  }
+
+  function loadPage(key){
+    const pageId = PAGES[key] || PAGES.overview;
+    // Show loader if you use one
+    const loader = document.getElementById('loader');
+    if (loader) loader.style.display = 'flex';
+
+    frame.src = BASE_EMBED + pageId;
+    setActive(key);
+    // preserve deep-link so refresh keeps page
+    location.hash = key;
+  }
+
+  // Click handlers
+  navLinks.forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const key = a.dataset.key;
+      loadPage(key);
+      // close sidebar on mobile if open
+      document.getElementById('sidebar')?.classList.remove('open');
+    });
+  });
+
+  // On first load: open hash route or default to overview
+  window.addEventListener('load', () => {
+    const key = (location.hash || '#overview').replace('#','');
+    loadPage(key);
+  });
+
+  // Optional: style for the active link
+  const style = document.createElement('style');
+  style.textContent = `
+    .nav a.active{
+      background: rgba(76,201,240,.18);
+      border-color: rgba(76,201,240,.45);
+    }
+  `;
+  document.head.appendChild(style);
+</script>
+
 
   <script>
   function adjustFrameHeight() {
