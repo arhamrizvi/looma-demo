@@ -156,6 +156,22 @@
     }
     }
 
+    .mobile-export{
+  display:flex; gap:8px; flex-wrap:wrap; align-items:center;
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12);
+  padding:10px 12px; border-radius:12px; margin-bottom:10px;
+}
+.mobile-export button, .mobile-export a{
+  border:1px solid rgba(76,201,240,.35);
+  background:rgba(76,201,240,.12);
+  padding:8px 10px; border-radius:10px; text-decoration:none; color:#ecf1ff;
+  font-size:13px;
+}
+@media (max-width: 900px){
+  #mobileExport{ display:flex !important; }
+}
+
+
 
     .footer{ color:#9aa3b2; text-align:center; margin-top:16px; font-size:12px; }
 
@@ -196,6 +212,14 @@
     </header>
 
     <main class="main">
+
+      <div class="mobile-export" id="mobileExport" hidden>
+  <button id="openLooker">Open report in new tab</button>
+  <a id="csvVisits"  download>Download Visits CSV</a>
+  <a id="csvCapacity" download>Download Capacity CSV</a>
+</div>
+
+
       <section class="panel" aria-label="Live dashboard">
         <div id="loader" class="loader" role="status" aria-live="polite">
           <div class="spin-wrap">
@@ -208,6 +232,7 @@
             src="https://lookerstudio.google.com/embed/reporting/ecca365c-5cf8-4736-8387-22e54c6e4c87/page/qODdF"
             allowfullscreen
             sandbox="allow-downloads allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-forms allow-popups-to-escape-sandbox"
+
             onload="document.getElementById('loader').style.display='none'">
           </iframe>
         </div>
@@ -292,6 +317,33 @@
   window.addEventListener('load', adjustFrameHeight);
   window.addEventListener('resize', adjustFrameHeight);
 </script>
+
+<script>
+  (function(){
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const bar = document.getElementById('mobileExport');
+    if(!isMobile || !bar) return;
+
+    bar.hidden = false;
+
+    // Use your current iframe src as base for "open in new tab"
+    const frame = document.querySelector('.frame iframe');
+    document.getElementById('openLooker').onclick = () => {
+      // open the same page outside the embed (Looker menu works there)
+      const url = frame?.src?.replace('/embed/', '/') || frame?.src;
+      window.open(url, '_blank', 'noopener');
+    };
+
+    // Direct CSV from Google Sheets (works on mobile)
+    const SHEET_ID = '1Gt4VLYI0ofHF-ZHflNhYd8ZtaAZ8oNS_nOnIKUfzYjc'; // your sheet
+    // gviz API lets you export by sheet name (no gid hunting)
+    document.getElementById('csvVisits').href   =
+      `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=visits`;
+    document.getElementById('csvCapacity').href =
+      `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=daily_capacity`;
+  })();
+</script>
+
 
 </body>
 </html>
