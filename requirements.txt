@@ -1,0 +1,23 @@
+# FastAPI + Server
+fastapi
+uvicorn[standard]
+
+# Data & Math
+pandas
+numpy
+
+# HTTP Requests
+requests
+
+# Google BigQuery
+google-cloud-bigquery
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+db-dtypes
+
+# Pydantic (FastAPI models)
+pydantic
+
+# Needed for smaller utilities
+python-dotenv

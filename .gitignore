@@ -1,0 +1,39 @@
+
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual envs
+venv/
+.env/
+.venv/
+env/
+*conda-env*/
+
+# Ignore service account keys (VERY IMPORTANT)
+*.json
+*.p12
+*.pem
+*.key
+
+# Ignore Google Cloud keys specifically
+*looma-*.json
+*gcloud*.json
+
+# Ignore local configs
+*.log
+*.sqlite3
+*.db
+
+# Ignore IDE/editor stuff
+.vscode/
+.idea/
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
+
+
+
+
