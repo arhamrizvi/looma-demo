@@ -1,0 +1,701 @@
+user_id,full_name,email,signup_date,plan_type,home_location,acquisition_channel,cohort_month,company_size,role_bucket,visit_pref,churn_risk,price_sensitivity,activity_bias,is_active
+U000001,User 1,user1@example.com,2025-09-21,Standard,Jeddah - Corniche,Organic,2025-09-01,51-200,Sales,Midday,0.4,0.66,0.4,True
+U000002,User 2,user2@example.com,2025-08-15,Pro,Riyadh - Olaya,Organic,2025-08-01,2-10,Founder,Morning,0.3399999999999999,0.73,0.69,True
+U000003,User 3,user3@example.com,2025-10-11,Flex,Jeddah - Corniche,Paid,2025-10-01,11-50,Engineer,Afternoon,0.54,0.39,0.39,True
+U000004,User 4,user4@example.com,2025-09-30,Flex,Riyadh - Olaya,Paid,2025-09-01,Solo,Other,Afternoon,0.24,0.46,0.39,True
+U000005,User 5,user5@example.com,2025-08-21,Flex,Riyadh - Olaya,Referral,2025-08-01,200+,Other,Midday,0.3299999999999999,0.64,0.47,True
+U000006,User 6,user6@example.com,2025-10-22,Flex,Jeddah - Corniche,Organic,2025-10-01,51-200,Sales,Midday,0.1699999999999999,0.28,0.3299999999999999,True
+U000007,User 7,user7@example.com,2025-10-26,Enterprise,Riyadh - Olaya,Organic,2025-10-01,200+,Founder,Morning,0.38,0.49,0.6399999999999999,True
+U000008,User 8,user8@example.com,2025-10-14,Flex,Riyadh - Olaya,Paid,2025-10-01,2-10,Designer,Afternoon,0.19,0.12,0.5,True
+U000009,User 9,user9@example.com,2025-10-14,Enterprise,Riyadh - Olaya,Organic,2025-10-01,200+,Analyst,Morning,0.1699999999999999,0.0,0.58,True
+U000010,User 10,user10@example.com,2025-10-27,Enterprise,Riyadh - Olaya,Organic,2025-10-01,2-10,Analyst,Morning,0.41,0.33,0.6499999999999999,True
+U000011,User 11,user11@example.com,2025-08-24,Flex,Riyadh - Olaya,Organic,2025-08-01,200+,Analyst,Midday,0.3,0.47,0.45,True
+U000012,User 12,user12@example.com,2025-08-03,Flex,Riyadh - Olaya,Paid,2025-08-01,Solo,Designer,Afternoon,0.29,0.76,0.39,True
+U000013,User 13,user13@example.com,2025-08-22,Standard,Jeddah - Corniche,Referral,2025-08-01,Solo,Other,Afternoon,0.49,0.47,0.43,True
+U000014,User 14,user14@example.com,2025-09-22,Pro,Riyadh - Olaya,Partnership,2025-09-01,Solo,Founder,Afternoon,0.26,0.48,0.52,True
+U000015,User 15,user15@example.com,2025-08-02,Flex,Riyadh - Olaya,Referral,2025-08-01,Solo,Designer,Midday,0.4,0.63,0.46,True
+U000016,User 16,user16@example.com,2025-10-27,Standard,Jeddah - Corniche,Partnership,2025-10-01,Solo,Analyst,Midday,0.48,0.6,0.3299999999999999,True
+U000017,User 17,user17@example.com,2025-08-30,Standard,Riyadh - Olaya,Organic,2025-08-01,Solo,Sales,Midday,0.37,0.28,0.46,True
+U000018,User 18,user18@example.com,2025-09-07,Pro,Riyadh - Digital City,Referral,2025-09-01,2-10,Engineer,Midday,0.4499999999999999,0.38,0.61,True
+U000019,User 19,user19@example.com,2025-08-02,Enterprise,Riyadh - Olaya,Partnership,2025-08-01,51-200,Designer,Midday,0.3399999999999999,0.87,0.7,True
+U000020,User 20,user20@example.com,2025-10-03,Flex,Jeddah - Corniche,Paid,2025-10-01,200+,Designer,Afternoon,0.26,0.25,0.41,True
+U000021,User 21,user21@example.com,2025-09-29,Pro,Jeddah - Corniche,Paid,2025-09-01,Solo,Founder,Morning,0.37,0.16,0.6599999999999999,True
+U000022,User 22,user22@example.com,2025-08-21,Flex,Jeddah - Corniche,Referral,2025-08-01,2-10,Founder,Afternoon,0.18,0.7,0.39,True
+U000023,User 23,user23@example.com,2025-09-02,Standard,Riyadh - Olaya,Referral,2025-09-01,2-10,Designer,Morning,0.37,0.12,0.44,True
+U000024,User 24,user24@example.com,2025-10-15,Standard,Dammam - Waterfront,Organic,2025-10-01,2-10,Analyst,Midday,0.15,0.68,0.42,True
+U000025,User 25,user25@example.com,2025-09-27,Enterprise,Dammam - Waterfront,Referral,2025-09-01,51-200,Engineer,Morning,0.39,0.25,0.59,True
+U000026,User 26,user26@example.com,2025-08-22,Standard,Riyadh - Olaya,Organic,2025-08-01,200+,Founder,Afternoon,0.16,0.48,0.5,True
+U000027,User 27,user27@example.com,2025-10-28,Standard,Riyadh - Olaya,Organic,2025-10-01,51-200,Analyst,Afternoon,0.4399999999999999,0.66,0.4,True
+U000028,User 28,user28@example.com,2025-09-18,Pro,Riyadh - Olaya,Paid,2025-09-01,11-50,Sales,Morning,0.1699999999999999,0.06,0.5599999999999999,True
+U000029,User 29,user29@example.com,2025-10-30,Flex,Jeddah - Corniche,Paid,2025-10-01,2-10,Founder,Midday,0.35,0.57,0.49,True
+U000030,User 30,user30@example.com,2025-09-28,Flex,Jeddah - Corniche,Partnership,2025-09-01,11-50,Analyst,Midday,0.39,0.48,0.31,True
+U000031,User 31,user31@example.com,2025-09-11,Pro,Riyadh - Olaya,Paid,2025-09-01,Solo,Analyst,Afternoon,0.3399999999999999,0.52,0.6399999999999999,True
+U000032,User 32,user32@example.com,2025-10-31,Enterprise,Jeddah - Corniche,Paid,2025-10-01,Solo,Engineer,Morning,0.36,0.64,0.59,True
+U000033,User 33,user33@example.com,2025-09-29,Flex,Jeddah - Corniche,Referral,2025-09-01,51-200,Engineer,Midday,0.35,0.61,0.3299999999999999,True
+U000034,User 34,user34@example.com,2025-10-19,Standard,Riyadh - Olaya,Paid,2025-10-01,200+,Sales,Midday,0.47,0.16,0.48,True
+U000035,User 35,user35@example.com,2025-08-15,Flex,Dammam - Waterfront,Partnership,2025-08-01,11-50,Analyst,Afternoon,0.52,0.42,0.44,True
+U000036,User 36,user36@example.com,2025-10-01,Standard,Jeddah - Corniche,Referral,2025-10-01,200+,Other,Midday,0.29,0.24,0.4,True
+U000037,User 37,user37@example.com,2025-10-01,Enterprise,Riyadh - Olaya,Partnership,2025-10-01,51-200,Analyst,Morning,0.29,0.02,0.5299999999999999,True
+U000038,User 38,user38@example.com,2025-09-16,Pro,Jeddah - Corniche,Paid,2025-09-01,Solo,Engineer,Afternoon,0.39,0.78,0.59,True
+U000039,User 39,user39@example.com,2025-10-01,Flex,Jeddah - Corniche,Partnership,2025-10-01,200+,Other,Afternoon,0.35,0.28,0.45,True
+U000040,User 40,user40@example.com,2025-09-20,Pro,Jeddah - Corniche,Referral,2025-09-01,200+,Founder,Morning,0.38,0.31,0.6599999999999999,True
+U000041,User 41,user41@example.com,2025-09-24,Flex,Jeddah - Corniche,Organic,2025-09-01,Solo,Founder,Afternoon,0.19,0.25,0.5,True
+U000042,User 42,user42@example.com,2025-10-03,Standard,Dammam - Waterfront,Partnership,2025-10-01,11-50,Designer,Midday,0.2,0.15,0.39,True
+U000043,User 43,user43@example.com,2025-08-03,Pro,Riyadh - Digital City,Partnership,2025-08-01,Solo,Engineer,Midday,0.37,0.24,0.6,True
+U000044,User 44,user44@example.com,2025-09-20,Flex,Riyadh - Olaya,Referral,2025-09-01,200+,Designer,Morning,0.18,0.53,0.47,True
+U000045,User 45,user45@example.com,2025-08-07,Standard,Riyadh - Olaya,Referral,2025-08-01,11-50,Other,Midday,0.41,0.27,0.3299999999999999,True
+U000046,User 46,user46@example.com,2025-08-21,Pro,Riyadh - Olaya,Partnership,2025-08-01,11-50,Engineer,Morning,0.32,0.72,0.6699999999999999,True
+U000047,User 47,user47@example.com,2025-10-12,Pro,Jeddah - Corniche,Paid,2025-10-01,Solo,Sales,Morning,0.35,0.55,0.5399999999999999,True
+U000048,User 48,user48@example.com,2025-09-08,Flex,Riyadh - Olaya,Partnership,2025-09-01,200+,Analyst,Midday,0.42,0.64,0.49,True
+U000049,User 49,user49@example.com,2025-08-18,Flex,Riyadh - Olaya,Referral,2025-08-01,51-200,Sales,Morning,0.49,0.85,0.49,True
+U000050,User 50,user50@example.com,2025-08-04,Flex,Jeddah - Corniche,Organic,2025-08-01,200+,Other,Midday,0.36,0.79,0.39,True
+U000051,User 51,user51@example.com,2025-10-28,Standard,Jeddah - Corniche,Organic,2025-10-01,2-10,Engineer,Afternoon,0.54,0.4,0.45,True
+U000052,User 52,user52@example.com,2025-09-29,Flex,Riyadh - Digital City,Paid,2025-09-01,51-200,Other,Afternoon,0.37,0.5,0.41,True
+U000053,User 53,user53@example.com,2025-08-14,Pro,Riyadh - Digital City,Partnership,2025-08-01,11-50,Analyst,Morning,0.1699999999999999,0.7,0.5499999999999999,True
+U000054,User 54,user54@example.com,2025-08-09,Pro,Riyadh - Digital City,Organic,2025-08-01,51-200,Founder,Midday,0.54,0.77,0.57,True
+U000055,User 55,user55@example.com,2025-10-29,Flex,Jeddah - Corniche,Partnership,2025-10-01,11-50,Founder,Midday,0.24,0.28,0.44,True
+U000056,User 56,user56@example.com,2025-09-22,Flex,Riyadh - Digital City,Referral,2025-09-01,11-50,Other,Afternoon,0.39,0.82,0.32,True
+U000057,User 57,user57@example.com,2025-08-02,Enterprise,Jeddah - Corniche,Organic,2025-08-01,51-200,Designer,Afternoon,0.22,0.18,0.5399999999999999,True
+U000058,User 58,user58@example.com,2025-10-23,Pro,Riyadh - Olaya,Paid,2025-10-01,11-50,Engineer,Midday,0.25,0.65,0.62,True
+U000059,User 59,user59@example.com,2025-10-31,Standard,Jeddah - Corniche,Referral,2025-10-01,11-50,Engineer,Morning,0.19,0.4,0.38,True
+U000060,User 60,user60@example.com,2025-09-29,Enterprise,Dammam - Waterfront,Paid,2025-09-01,2-10,Founder,Afternoon,0.51,0.44,0.6599999999999999,True
+U000061,User 61,user61@example.com,2025-10-10,Flex,Jeddah - Corniche,Referral,2025-10-01,200+,Sales,Morning,0.52,0.14,0.46,True
+U000062,User 62,user62@example.com,2025-09-13,Flex,Riyadh - Olaya,Organic,2025-09-01,200+,Analyst,Morning,0.43,0.02,0.41,True
+U000063,User 63,user63@example.com,2025-08-08,Pro,Jeddah - Corniche,Paid,2025-08-01,2-10,Sales,Afternoon,0.19,0.1,0.61,True
+U000064,User 64,user64@example.com,2025-09-16,Flex,Riyadh - Digital City,Paid,2025-09-01,51-200,Sales,Morning,0.2299999999999999,0.52,0.44,True
+U000065,User 65,user65@example.com,2025-09-04,Standard,Riyadh - Olaya,Referral,2025-09-01,Solo,Other,Morning,0.16,0.45,0.36,True
+U000066,User 66,user66@example.com,2025-10-17,Pro,Riyadh - Olaya,Paid,2025-10-01,Solo,Founder,Midday,0.15,0.29,0.6399999999999999,True
+U000067,User 67,user67@example.com,2025-10-20,Flex,Riyadh - Digital City,Referral,2025-10-01,Solo,Founder,Morning,0.54,0.56,0.36,True
+U000068,User 68,user68@example.com,2025-09-05,Pro,Riyadh - Olaya,Referral,2025-09-01,2-10,Founder,Midday,0.4399999999999999,0.17,0.6799999999999999,True
+U000069,User 69,user69@example.com,2025-09-19,Flex,Riyadh - Olaya,Referral,2025-09-01,2-10,Other,Afternoon,0.25,0.5,0.32,True
+U000070,User 70,user70@example.com,2025-08-04,Flex,Riyadh - Olaya,Referral,2025-08-01,11-50,Designer,Afternoon,0.42,0.47,0.41,True
+U000071,User 71,user71@example.com,2025-08-02,Flex,Riyadh - Digital City,Organic,2025-08-01,Solo,Sales,Midday,0.26,0.65,0.36,True
+U000072,User 72,user72@example.com,2025-08-06,Standard,Riyadh - Digital City,Referral,2025-08-01,51-200,Other,Afternoon,0.53,0.07,0.48,True
+U000073,User 73,user73@example.com,2025-09-23,Standard,Dammam - Waterfront,Partnership,2025-09-01,51-200,Engineer,Morning,0.4,0.21,0.45,True
+U000074,User 74,user74@example.com,2025-08-04,Pro,Riyadh - Olaya,Paid,2025-08-01,Solo,Analyst,Morning,0.27,0.05,0.59,True
+U000075,User 75,user75@example.com,2025-09-23,Flex,Riyadh - Olaya,Partnership,2025-09-01,Solo,Designer,Morning,0.22,0.75,0.36,True
+U000076,User 76,user76@example.com,2025-10-02,Flex,Jeddah - Corniche,Organic,2025-10-01,Solo,Engineer,Afternoon,0.42,0.56,0.45,True
+U000077,User 77,user77@example.com,2025-08-18,Standard,Jeddah - Corniche,Partnership,2025-08-01,2-10,Sales,Morning,0.4399999999999999,0.35,0.38,True
+U000078,User 78,user78@example.com,2025-10-29,Flex,Riyadh - Digital City,Paid,2025-10-01,2-10,Founder,Afternoon,0.2299999999999999,0.78,0.32,True
+U000079,User 79,user79@example.com,2025-09-13,Standard,Riyadh - Digital City,Partnership,2025-09-01,2-10,Sales,Morning,0.53,0.56,0.48,True
+U000080,User 80,user80@example.com,2025-09-03,Flex,Riyadh - Digital City,Organic,2025-09-01,200+,Other,Midday,0.4499999999999999,0.48,0.43,True
+U000081,User 81,user81@example.com,2025-10-13,Pro,Jeddah - Corniche,Referral,2025-10-01,51-200,Analyst,Afternoon,0.35,0.44,0.6299999999999999,True
+U000082,User 82,user82@example.com,2025-10-01,Flex,Dammam - Waterfront,Partnership,2025-10-01,51-200,Other,Afternoon,0.48,0.81,0.31,True
+U000083,User 83,user83@example.com,2025-08-14,Flex,Riyadh - Olaya,Organic,2025-08-01,11-50,Designer,Morning,0.4499999999999999,0.65,0.36,True
+U000084,User 84,user84@example.com,2025-09-17,Enterprise,Riyadh - Digital City,Organic,2025-09-01,2-10,Designer,Afternoon,0.39,0.76,0.6699999999999999,True
+U000085,User 85,user85@example.com,2025-08-15,Standard,Riyadh - Olaya,Paid,2025-08-01,200+,Analyst,Afternoon,0.26,0.44,0.32,True
+U000086,User 86,user86@example.com,2025-10-11,Flex,Riyadh - Digital City,Paid,2025-10-01,200+,Engineer,Midday,0.15,0.78,0.48,True
+U000087,User 87,user87@example.com,2025-10-17,Flex,Dammam - Waterfront,Partnership,2025-10-01,51-200,Engineer,Midday,0.36,0.19,0.38,True
+U000088,User 88,user88@example.com,2025-10-26,Enterprise,Jeddah - Corniche,Referral,2025-10-01,2-10,Designer,Morning,0.54,0.63,0.6299999999999999,True
+U000089,User 89,user89@example.com,2025-10-01,Enterprise,Jeddah - Corniche,Organic,2025-10-01,11-50,Designer,Midday,0.51,0.66,0.5499999999999999,True
+U000090,User 90,user90@example.com,2025-09-09,Standard,Riyadh - Olaya,Partnership,2025-09-01,2-10,Founder,Morning,0.15,0.82,0.38,True
+U000091,User 91,user91@example.com,2025-10-24,Enterprise,Dammam - Waterfront,Organic,2025-10-01,Solo,Engineer,Morning,0.15,0.02,0.6799999999999999,True
+U000092,User 92,user92@example.com,2025-10-19,Pro,Jeddah - Corniche,Organic,2025-10-01,2-10,Analyst,Morning,0.35,0.53,0.5499999999999999,True
+U000093,User 93,user93@example.com,2025-10-21,Enterprise,Jeddah - Corniche,Referral,2025-10-01,Solo,Engineer,Afternoon,0.29,0.77,0.62,True
+U000094,User 94,user94@example.com,2025-09-22,Pro,Riyadh - Olaya,Referral,2025-09-01,Solo,Founder,Midday,0.31,0.63,0.57,True
+U000095,User 95,user95@example.com,2025-08-24,Standard,Riyadh - Olaya,Partnership,2025-08-01,11-50,Other,Morning,0.36,0.39,0.38,True
+U000096,User 96,user96@example.com,2025-08-26,Standard,Riyadh - Olaya,Referral,2025-08-01,51-200,Designer,Midday,0.52,0.58,0.44,True
+U000097,User 97,user97@example.com,2025-10-28,Standard,Riyadh - Olaya,Referral,2025-10-01,2-10,Designer,Morning,0.49,0.54,0.36,True
+U000098,User 98,user98@example.com,2025-09-29,Standard,Dammam - Waterfront,Partnership,2025-09-01,Solo,Founder,Midday,0.3,0.61,0.44,True
+U000099,User 99,user99@example.com,2025-09-10,Standard,Jeddah - Corniche,Referral,2025-09-01,2-10,Analyst,Midday,0.22,0.03,0.45,True
+U000100,User 100,user100@example.com,2025-08-29,Pro,Riyadh - Olaya,Paid,2025-08-01,51-200,Designer,Morning,0.31,0.59,0.69,True
+U000101,User 101,user101@example.com,2025-08-15,Pro,Dammam - Waterfront,Organic,2025-08-01,51-200,Sales,Afternoon,0.31,0.74,0.62,True
+U000102,User 102,user102@example.com,2025-09-14,Standard,Jeddah - Corniche,Organic,2025-09-01,200+,Designer,Midday,0.4,0.29,0.3399999999999999,True
+U000103,User 103,user103@example.com,2025-10-04,Enterprise,Dammam - Waterfront,Organic,2025-10-01,51-200,Sales,Afternoon,0.27,0.01,0.6599999999999999,True
+U000104,User 104,user104@example.com,2025-10-28,Flex,Jeddah - Corniche,Organic,2025-10-01,11-50,Founder,Afternoon,0.31,0.61,0.39,True
+U000105,User 105,user105@example.com,2025-10-10,Standard,Jeddah - Corniche,Partnership,2025-10-01,Solo,Founder,Morning,0.52,0.48,0.5,True
+U000106,User 106,user106@example.com,2025-08-09,Enterprise,Riyadh - Digital City,Organic,2025-08-01,200+,Designer,Morning,0.31,0.08,0.61,True
+U000107,User 107,user107@example.com,2025-10-27,Flex,Dammam - Waterfront,Organic,2025-10-01,11-50,Engineer,Morning,0.28,0.3,0.4,True
+U000108,User 108,user108@example.com,2025-08-01,Standard,Dammam - Waterfront,Organic,2025-08-01,2-10,Sales,Midday,0.2,0.6,0.35,True
+U000109,User 109,user109@example.com,2025-08-08,Standard,Riyadh - Olaya,Organic,2025-08-01,Solo,Analyst,Morning,0.49,0.78,0.37,True
+U000110,User 110,user110@example.com,2025-10-27,Pro,Jeddah - Corniche,Paid,2025-10-01,51-200,Designer,Morning,0.28,0.47,0.6299999999999999,True
+U000111,User 111,user111@example.com,2025-10-02,Flex,Riyadh - Digital City,Organic,2025-10-01,Solo,Analyst,Midday,0.22,0.24,0.3399999999999999,True
+U000112,User 112,user112@example.com,2025-08-11,Flex,Jeddah - Corniche,Paid,2025-08-01,2-10,Designer,Midday,0.29,0.35,0.3299999999999999,True
+U000113,User 113,user113@example.com,2025-10-20,Enterprise,Riyadh - Olaya,Partnership,2025-10-01,200+,Engineer,Morning,0.41,0.07,0.59,True
+U000114,User 114,user114@example.com,2025-08-08,Pro,Riyadh - Digital City,Referral,2025-08-01,200+,Engineer,Morning,0.27,0.72,0.5399999999999999,True
+U000115,User 115,user115@example.com,2025-09-04,Pro,Dammam - Waterfront,Organic,2025-09-01,200+,Engineer,Morning,0.4499999999999999,0.57,0.57,True
+U000116,User 116,user116@example.com,2025-09-04,Pro,Riyadh - Digital City,Referral,2025-09-01,51-200,Other,Morning,0.49,0.44,0.5499999999999999,True
+U000117,User 117,user117@example.com,2025-09-02,Pro,Dammam - Waterfront,Referral,2025-09-01,11-50,Engineer,Afternoon,0.2,0.61,0.57,True
+U000118,User 118,user118@example.com,2025-08-05,Flex,Jeddah - Corniche,Partnership,2025-08-01,11-50,Founder,Afternoon,0.19,0.38,0.42,True
+U000119,User 119,user119@example.com,2025-09-10,Flex,Riyadh - Olaya,Referral,2025-09-01,Solo,Founder,Morning,0.36,0.57,0.47,True
+U000120,User 120,user120@example.com,2025-08-28,Standard,Riyadh - Olaya,Paid,2025-08-01,51-200,Other,Afternoon,0.37,0.8,0.4,True
+U000121,User 121,user121@example.com,2025-08-07,Standard,Riyadh - Digital City,Referral,2025-08-01,200+,Sales,Midday,0.39,0.82,0.45,True
+U000122,User 122,user122@example.com,2025-10-12,Pro,Dammam - Waterfront,Referral,2025-10-01,200+,Analyst,Afternoon,0.48,0.63,0.5599999999999999,True
+U000123,User 123,user123@example.com,2025-10-11,Pro,Jeddah - Corniche,Referral,2025-10-01,2-10,Designer,Afternoon,0.4,0.43,0.6599999999999999,True
+U000124,User 124,user124@example.com,2025-08-12,Pro,Dammam - Waterfront,Organic,2025-08-01,2-10,Designer,Morning,0.19,0.28,0.6,True
+U000125,User 125,user125@example.com,2025-09-03,Standard,Jeddah - Corniche,Organic,2025-09-01,200+,Other,Afternoon,0.4,0.58,0.3299999999999999,True
+U000126,User 126,user126@example.com,2025-09-02,Enterprise,Riyadh - Digital City,Paid,2025-09-01,200+,Founder,Afternoon,0.3399999999999999,0.7,0.58,True
+U000127,User 127,user127@example.com,2025-09-17,Enterprise,Dammam - Waterfront,Paid,2025-09-01,51-200,Designer,Afternoon,0.2,0.08,0.6,True
+U000128,User 128,user128@example.com,2025-08-23,Standard,Jeddah - Corniche,Organic,2025-08-01,11-50,Founder,Afternoon,0.2,0.05,0.37,True
+U000129,User 129,user129@example.com,2025-10-01,Standard,Riyadh - Digital City,Paid,2025-10-01,2-10,Sales,Midday,0.32,0.28,0.3299999999999999,True
+U000130,User 130,user130@example.com,2025-10-27,Standard,Dammam - Waterfront,Organic,2025-10-01,11-50,Analyst,Morning,0.18,0.57,0.32,True
+U000131,User 131,user131@example.com,2025-09-06,Standard,Jeddah - Corniche,Partnership,2025-09-01,51-200,Sales,Morning,0.31,0.16,0.36,True
+U000132,User 132,user132@example.com,2025-09-13,Standard,Jeddah - Corniche,Referral,2025-09-01,200+,Other,Midday,0.28,0.15,0.42,True
+U000133,User 133,user133@example.com,2025-10-25,Standard,Riyadh - Olaya,Referral,2025-10-01,11-50,Engineer,Afternoon,0.28,0.86,0.43,True
+U000134,User 134,user134@example.com,2025-10-30,Pro,Dammam - Waterfront,Paid,2025-10-01,200+,Engineer,Midday,0.27,0.02,0.51,True
+U000135,User 135,user135@example.com,2025-09-04,Pro,Riyadh - Digital City,Organic,2025-09-01,200+,Engineer,Afternoon,0.21,0.2,0.7,True
+U000136,User 136,user136@example.com,2025-10-04,Pro,Jeddah - Corniche,Organic,2025-10-01,Solo,Sales,Midday,0.29,0.63,0.6699999999999999,True
+U000137,User 137,user137@example.com,2025-09-16,Pro,Dammam - Waterfront,Paid,2025-09-01,11-50,Designer,Morning,0.3299999999999999,0.89,0.57,True
+U000138,User 138,user138@example.com,2025-10-17,Standard,Riyadh - Olaya,Organic,2025-10-01,11-50,Analyst,Morning,0.49,0.35,0.49,True
+U000139,User 139,user139@example.com,2025-08-03,Enterprise,Dammam - Waterfront,Partnership,2025-08-01,200+,Engineer,Morning,0.31,0.85,0.5499999999999999,True
+U000140,User 140,user140@example.com,2025-08-01,Flex,Riyadh - Digital City,Referral,2025-08-01,51-200,Other,Afternoon,0.49,0.61,0.48,True
+U000141,User 141,user141@example.com,2025-08-05,Standard,Dammam - Waterfront,Paid,2025-08-01,Solo,Other,Afternoon,0.3299999999999999,0.41,0.43,True
+U000142,User 142,user142@example.com,2025-10-29,Flex,Riyadh - Olaya,Paid,2025-10-01,200+,Engineer,Midday,0.3399999999999999,0.75,0.45,True
+U000143,User 143,user143@example.com,2025-08-14,Enterprise,Jeddah - Corniche,Organic,2025-08-01,2-10,Engineer,Midday,0.5,0.41,0.5499999999999999,True
+U000144,User 144,user144@example.com,2025-08-27,Pro,Riyadh - Olaya,Paid,2025-08-01,2-10,Analyst,Morning,0.49,0.6,0.5499999999999999,True
+U000145,User 145,user145@example.com,2025-08-09,Enterprise,Riyadh - Olaya,Partnership,2025-08-01,Solo,Engineer,Afternoon,0.4599999999999999,0.12,0.6399999999999999,True
+U000146,User 146,user146@example.com,2025-10-18,Standard,Riyadh - Digital City,Organic,2025-10-01,51-200,Analyst,Midday,0.54,0.1,0.38,True
+U000147,User 147,user147@example.com,2025-08-15,Pro,Riyadh - Digital City,Organic,2025-08-01,200+,Other,Afternoon,0.38,0.53,0.58,True
+U000148,User 148,user148@example.com,2025-10-29,Standard,Riyadh - Olaya,Organic,2025-10-01,11-50,Engineer,Afternoon,0.31,0.15,0.46,True
+U000149,User 149,user149@example.com,2025-09-11,Pro,Dammam - Waterfront,Organic,2025-09-01,Solo,Sales,Morning,0.21,0.07,0.51,True
+U000150,User 150,user150@example.com,2025-10-16,Flex,Riyadh - Digital City,Partnership,2025-10-01,51-200,Sales,Morning,0.15,0.58,0.3299999999999999,True
+U000151,User 151,user151@example.com,2025-09-20,Flex,Jeddah - Corniche,Organic,2025-09-01,11-50,Other,Afternoon,0.49,0.56,0.36,True
+U000152,User 152,user152@example.com,2025-10-02,Flex,Riyadh - Digital City,Paid,2025-10-01,2-10,Analyst,Afternoon,0.4599999999999999,0.39,0.3299999999999999,True
+U000153,User 153,user153@example.com,2025-09-21,Enterprise,Riyadh - Olaya,Partnership,2025-09-01,2-10,Sales,Afternoon,0.5,0.58,0.69,True
+U000154,User 154,user154@example.com,2025-08-04,Standard,Jeddah - Corniche,Referral,2025-08-01,11-50,Analyst,Afternoon,0.27,0.01,0.41,True
+U000155,User 155,user155@example.com,2025-08-23,Enterprise,Jeddah - Corniche,Referral,2025-08-01,Solo,Sales,Morning,0.2,0.75,0.58,True
+U000156,User 156,user156@example.com,2025-08-15,Flex,Riyadh - Olaya,Paid,2025-08-01,2-10,Sales,Midday,0.28,0.09,0.3299999999999999,True
+U000157,User 157,user157@example.com,2025-09-12,Standard,Jeddah - Corniche,Paid,2025-09-01,200+,Analyst,Morning,0.51,0.43,0.36,True
+U000158,User 158,user158@example.com,2025-08-29,Flex,Riyadh - Olaya,Partnership,2025-08-01,11-50,Designer,Midday,0.29,0.1,0.39,True
+U000159,User 159,user159@example.com,2025-09-05,Enterprise,Jeddah - Corniche,Referral,2025-09-01,11-50,Sales,Afternoon,0.18,0.78,0.5599999999999999,True
+U000160,User 160,user160@example.com,2025-08-13,Enterprise,Jeddah - Corniche,Referral,2025-08-01,2-10,Engineer,Midday,0.54,0.79,0.58,True
+U000161,User 161,user161@example.com,2025-09-01,Enterprise,Jeddah - Corniche,Referral,2025-09-01,Solo,Other,Morning,0.3,0.8,0.5299999999999999,True
+U000162,User 162,user162@example.com,2025-10-10,Flex,Jeddah - Corniche,Referral,2025-10-01,200+,Designer,Morning,0.42,0.89,0.36,True
+U000163,User 163,user163@example.com,2025-09-28,Standard,Riyadh - Digital City,Referral,2025-09-01,Solo,Analyst,Afternoon,0.3,0.01,0.4,True
+U000164,User 164,user164@example.com,2025-10-25,Standard,Jeddah - Corniche,Organic,2025-10-01,51-200,Designer,Morning,0.18,0.49,0.32,True
+U000165,User 165,user165@example.com,2025-08-28,Flex,Riyadh - Olaya,Paid,2025-08-01,51-200,Founder,Afternoon,0.4,0.11,0.48,True
+U000166,User 166,user166@example.com,2025-10-05,Standard,Dammam - Waterfront,Organic,2025-10-01,2-10,Founder,Morning,0.42,0.89,0.44,True
+U000167,User 167,user167@example.com,2025-09-11,Flex,Riyadh - Digital City,Referral,2025-09-01,2-10,Sales,Morning,0.4599999999999999,0.22,0.37,True
+U000168,User 168,user168@example.com,2025-09-14,Standard,Riyadh - Digital City,Partnership,2025-09-01,2-10,Sales,Afternoon,0.16,0.17,0.37,True
+U000169,User 169,user169@example.com,2025-10-01,Pro,Riyadh - Olaya,Partnership,2025-10-01,51-200,Engineer,Midday,0.4499999999999999,0.61,0.58,True
+U000170,User 170,user170@example.com,2025-09-26,Pro,Riyadh - Olaya,Referral,2025-09-01,Solo,Other,Morning,0.1699999999999999,0.61,0.59,True
+U000171,User 171,user171@example.com,2025-08-06,Enterprise,Riyadh - Digital City,Referral,2025-08-01,Solo,Designer,Midday,0.22,0.37,0.62,True
+U000172,User 172,user172@example.com,2025-08-28,Pro,Riyadh - Olaya,Partnership,2025-08-01,2-10,Founder,Morning,0.38,0.66,0.7,True
+U000173,User 173,user173@example.com,2025-08-28,Pro,Riyadh - Olaya,Organic,2025-08-01,200+,Sales,Morning,0.29,0.37,0.52,True
+U000174,User 174,user174@example.com,2025-09-13,Pro,Dammam - Waterfront,Organic,2025-09-01,Solo,Other,Morning,0.4499999999999999,0.66,0.6,True
+U000175,User 175,user175@example.com,2025-10-23,Flex,Dammam - Waterfront,Referral,2025-10-01,51-200,Designer,Morning,0.2299999999999999,0.6,0.32,True
+U000176,User 176,user176@example.com,2025-08-30,Pro,Riyadh - Olaya,Organic,2025-08-01,11-50,Sales,Midday,0.53,0.0,0.5299999999999999,True
+U000177,User 177,user177@example.com,2025-10-01,Pro,Riyadh - Digital City,Partnership,2025-10-01,11-50,Sales,Midday,0.16,0.44,0.59,True
+U000178,User 178,user178@example.com,2025-10-14,Enterprise,Dammam - Waterfront,Organic,2025-10-01,11-50,Founder,Morning,0.22,0.27,0.7,True
+U000179,User 179,user179@example.com,2025-10-31,Pro,Dammam - Waterfront,Referral,2025-10-01,200+,Founder,Morning,0.21,0.2,0.52,True
+U000180,User 180,user180@example.com,2025-10-28,Pro,Jeddah - Corniche,Partnership,2025-10-01,2-10,Sales,Midday,0.53,0.12,0.51,True
+U000181,User 181,user181@example.com,2025-10-01,Standard,Riyadh - Olaya,Organic,2025-10-01,51-200,Analyst,Afternoon,0.3,0.26,0.3399999999999999,True
+U000182,User 182,user182@example.com,2025-08-01,Enterprise,Riyadh - Olaya,Paid,2025-08-01,200+,Sales,Afternoon,0.49,0.06,0.6599999999999999,True
+U000183,User 183,user183@example.com,2025-08-27,Enterprise,Dammam - Waterfront,Partnership,2025-08-01,51-200,Other,Midday,0.4399999999999999,0.21,0.6799999999999999,True
+U000184,User 184,user184@example.com,2025-10-01,Enterprise,Jeddah - Corniche,Partnership,2025-10-01,51-200,Sales,Morning,0.24,0.73,0.69,True
+U000185,User 185,user185@example.com,2025-10-16,Enterprise,Dammam - Waterfront,Paid,2025-10-01,2-10,Engineer,Morning,0.52,0.52,0.6799999999999999,True
+U000186,User 186,user186@example.com,2025-08-03,Enterprise,Dammam - Waterfront,Paid,2025-08-01,11-50,Engineer,Afternoon,0.32,0.78,0.6299999999999999,True
+U000187,User 187,user187@example.com,2025-10-09,Enterprise,Jeddah - Corniche,Partnership,2025-10-01,2-10,Engineer,Afternoon,0.19,0.78,0.5499999999999999,True
+U000188,User 188,user188@example.com,2025-10-11,Flex,Riyadh - Olaya,Paid,2025-10-01,200+,Analyst,Midday,0.43,0.03,0.45,True
+U000189,User 189,user189@example.com,2025-08-27,Pro,Riyadh - Olaya,Referral,2025-08-01,200+,Analyst,Afternoon,0.53,0.22,0.58,True
+U000190,User 190,user190@example.com,2025-08-09,Enterprise,Riyadh - Olaya,Referral,2025-08-01,200+,Sales,Midday,0.48,0.69,0.5499999999999999,True
+U000191,User 191,user191@example.com,2025-10-01,Pro,Riyadh - Digital City,Referral,2025-10-01,2-10,Engineer,Afternoon,0.37,0.87,0.5499999999999999,True
+U000192,User 192,user192@example.com,2025-09-06,Pro,Riyadh - Olaya,Partnership,2025-09-01,51-200,Analyst,Afternoon,0.19,0.83,0.6799999999999999,True
+U000193,User 193,user193@example.com,2025-09-20,Flex,Jeddah - Corniche,Paid,2025-09-01,51-200,Founder,Afternoon,0.4399999999999999,0.83,0.38,True
+U000194,User 194,user194@example.com,2025-09-13,Enterprise,Riyadh - Olaya,Paid,2025-09-01,Solo,Sales,Morning,0.2,0.75,0.57,True
+U000195,User 195,user195@example.com,2025-08-24,Standard,Riyadh - Olaya,Organic,2025-08-01,200+,Other,Morning,0.18,0.32,0.43,True
+U000196,User 196,user196@example.com,2025-10-18,Flex,Riyadh - Digital City,Organic,2025-10-01,51-200,Designer,Morning,0.43,0.27,0.39,True
+U000197,User 197,user197@example.com,2025-09-28,Standard,Riyadh - Olaya,Paid,2025-09-01,Solo,Sales,Afternoon,0.37,0.07,0.43,True
+U000198,User 198,user198@example.com,2025-09-01,Pro,Riyadh - Olaya,Paid,2025-09-01,51-200,Designer,Midday,0.2,0.0,0.62,True
+U000199,User 199,user199@example.com,2025-10-27,Pro,Dammam - Waterfront,Paid,2025-10-01,200+,Engineer,Midday,0.4599999999999999,0.36,0.7,True
+U000200,User 200,user200@example.com,2025-09-21,Flex,Dammam - Waterfront,Partnership,2025-09-01,11-50,Designer,Midday,0.32,0.62,0.45,True
+U000201,User 201,user201@example.com,2025-10-01,Flex,Jeddah - Corniche,Paid,2025-10-01,200+,Engineer,Midday,0.29,0.21,0.32,True
+U000202,User 202,user202@example.com,2025-09-27,Standard,Riyadh - Olaya,Organic,2025-09-01,2-10,Founder,Morning,0.54,0.69,0.4,True
+U000203,User 203,user203@example.com,2025-09-21,Enterprise,Jeddah - Corniche,Partnership,2025-09-01,51-200,Designer,Morning,0.4599999999999999,0.2,0.6,True
+U000204,User 204,user204@example.com,2025-08-12,Standard,Riyadh - Olaya,Paid,2025-08-01,51-200,Sales,Afternoon,0.2299999999999999,0.34,0.38,True
+U000205,User 205,user205@example.com,2025-09-08,Flex,Jeddah - Corniche,Organic,2025-09-01,2-10,Engineer,Afternoon,0.51,0.78,0.4,True
+U000206,User 206,user206@example.com,2025-08-02,Standard,Riyadh - Digital City,Partnership,2025-08-01,2-10,Sales,Midday,0.24,0.04,0.3299999999999999,True
+U000207,User 207,user207@example.com,2025-08-03,Flex,Riyadh - Olaya,Paid,2025-08-01,11-50,Analyst,Morning,0.3399999999999999,0.59,0.36,True
+U000208,User 208,user208@example.com,2025-09-25,Standard,Jeddah - Corniche,Paid,2025-09-01,51-200,Engineer,Midday,0.2,0.45,0.5,True
+U000209,User 209,user209@example.com,2025-10-20,Flex,Riyadh - Digital City,Paid,2025-10-01,51-200,Designer,Afternoon,0.1699999999999999,0.49,0.44,True
+U000210,User 210,user210@example.com,2025-09-28,Flex,Jeddah - Corniche,Partnership,2025-09-01,11-50,Engineer,Afternoon,0.25,0.47,0.38,True
+U000211,User 211,user211@example.com,2025-08-02,Flex,Jeddah - Corniche,Organic,2025-08-01,Solo,Sales,Midday,0.31,0.05,0.39,True
+U000212,User 212,user212@example.com,2025-08-02,Enterprise,Jeddah - Corniche,Organic,2025-08-01,11-50,Founder,Afternoon,0.4599999999999999,0.88,0.5299999999999999,True
+U000213,User 213,user213@example.com,2025-10-31,Standard,Dammam - Waterfront,Referral,2025-10-01,200+,Engineer,Midday,0.18,0.55,0.32,True
+U000214,User 214,user214@example.com,2025-09-23,Standard,Riyadh - Olaya,Paid,2025-09-01,51-200,Designer,Morning,0.18,0.58,0.36,True
+U000215,User 215,user215@example.com,2025-10-26,Standard,Dammam - Waterfront,Referral,2025-10-01,2-10,Analyst,Midday,0.31,0.28,0.43,True
+U000216,User 216,user216@example.com,2025-08-01,Flex,Dammam - Waterfront,Referral,2025-08-01,200+,Other,Morning,0.3299999999999999,0.7,0.32,True
+U000217,User 217,user217@example.com,2025-08-19,Standard,Dammam - Waterfront,Organic,2025-08-01,51-200,Founder,Morning,0.19,0.76,0.41,True
+U000218,User 218,user218@example.com,2025-08-02,Standard,Dammam - Waterfront,Partnership,2025-08-01,11-50,Analyst,Afternoon,0.4599999999999999,0.17,0.44,True
+U000219,User 219,user219@example.com,2025-09-22,Flex,Dammam - Waterfront,Partnership,2025-09-01,200+,Engineer,Afternoon,0.36,0.01,0.3299999999999999,True
+U000220,User 220,user220@example.com,2025-09-13,Pro,Jeddah - Corniche,Organic,2025-09-01,51-200,Sales,Afternoon,0.2,0.07,0.5499999999999999,True
+U000221,User 221,user221@example.com,2025-10-29,Flex,Riyadh - Olaya,Partnership,2025-10-01,Solo,Sales,Midday,0.49,0.74,0.31,True
+U000222,User 222,user222@example.com,2025-09-01,Standard,Jeddah - Corniche,Referral,2025-09-01,Solo,Designer,Midday,0.36,0.53,0.45,True
+U000223,User 223,user223@example.com,2025-10-09,Flex,Dammam - Waterfront,Paid,2025-10-01,2-10,Sales,Afternoon,0.15,0.37,0.42,True
+U000224,User 224,user224@example.com,2025-09-01,Pro,Riyadh - Digital City,Organic,2025-09-01,51-200,Founder,Midday,0.3399999999999999,0.47,0.58,True
+U000225,User 225,user225@example.com,2025-10-07,Flex,Jeddah - Corniche,Paid,2025-10-01,Solo,Sales,Afternoon,0.36,0.26,0.43,True
+U000226,User 226,user226@example.com,2025-09-24,Standard,Dammam - Waterfront,Partnership,2025-09-01,11-50,Designer,Midday,0.25,0.19,0.35,True
+U000227,User 227,user227@example.com,2025-10-14,Pro,Jeddah - Corniche,Paid,2025-10-01,51-200,Other,Morning,0.27,0.11,0.58,True
+U000228,User 228,user228@example.com,2025-09-25,Enterprise,Riyadh - Digital City,Partnership,2025-09-01,11-50,Engineer,Morning,0.1699999999999999,0.42,0.58,True
+U000229,User 229,user229@example.com,2025-08-17,Standard,Jeddah - Corniche,Partnership,2025-08-01,11-50,Engineer,Afternoon,0.2299999999999999,0.6,0.3399999999999999,True
+U000230,User 230,user230@example.com,2025-09-07,Pro,Dammam - Waterfront,Referral,2025-09-01,Solo,Sales,Midday,0.26,0.3,0.51,True
+U000231,User 231,user231@example.com,2025-08-24,Pro,Riyadh - Olaya,Partnership,2025-08-01,51-200,Analyst,Midday,0.37,0.6,0.6599999999999999,True
+U000232,User 232,user232@example.com,2025-10-08,Enterprise,Jeddah - Corniche,Referral,2025-10-01,200+,Engineer,Morning,0.28,0.73,0.5399999999999999,True
+U000233,User 233,user233@example.com,2025-10-09,Flex,Riyadh - Olaya,Referral,2025-10-01,Solo,Other,Morning,0.47,0.66,0.42,True
+U000234,User 234,user234@example.com,2025-10-25,Flex,Jeddah - Corniche,Referral,2025-10-01,Solo,Sales,Afternoon,0.32,0.34,0.49,True
+U000235,User 235,user235@example.com,2025-08-11,Standard,Riyadh - Olaya,Organic,2025-08-01,51-200,Designer,Morning,0.2299999999999999,0.14,0.3299999999999999,True
+U000236,User 236,user236@example.com,2025-08-16,Enterprise,Riyadh - Digital City,Organic,2025-08-01,51-200,Other,Afternoon,0.37,0.15,0.62,True
+U000237,User 237,user237@example.com,2025-10-12,Flex,Jeddah - Corniche,Partnership,2025-10-01,11-50,Sales,Morning,0.24,0.12,0.45,True
+U000238,User 238,user238@example.com,2025-09-28,Enterprise,Riyadh - Olaya,Referral,2025-09-01,51-200,Other,Morning,0.3299999999999999,0.34,0.6,True
+U000239,User 239,user239@example.com,2025-10-09,Flex,Riyadh - Olaya,Organic,2025-10-01,11-50,Engineer,Midday,0.19,0.74,0.45,True
+U000240,User 240,user240@example.com,2025-10-19,Pro,Dammam - Waterfront,Referral,2025-10-01,Solo,Designer,Morning,0.37,0.58,0.6499999999999999,True
+U000241,User 241,user241@example.com,2025-08-03,Flex,Jeddah - Corniche,Paid,2025-08-01,2-10,Sales,Morning,0.4399999999999999,0.2,0.38,True
+U000242,User 242,user242@example.com,2025-08-20,Enterprise,Riyadh - Olaya,Paid,2025-08-01,200+,Founder,Afternoon,0.39,0.53,0.6,True
+U000243,User 243,user243@example.com,2025-09-28,Pro,Jeddah - Corniche,Paid,2025-09-01,Solo,Designer,Morning,0.42,0.74,0.57,True
+U000244,User 244,user244@example.com,2025-09-05,Pro,Riyadh - Olaya,Partnership,2025-09-01,51-200,Founder,Afternoon,0.48,0.29,0.69,True
+U000245,User 245,user245@example.com,2025-08-19,Pro,Riyadh - Olaya,Referral,2025-08-01,200+,Other,Morning,0.39,0.47,0.6299999999999999,True
+U000246,User 246,user246@example.com,2025-10-29,Enterprise,Riyadh - Olaya,Paid,2025-10-01,2-10,Analyst,Morning,0.24,0.34,0.6799999999999999,True
+U000247,User 247,user247@example.com,2025-10-06,Standard,Riyadh - Digital City,Organic,2025-10-01,2-10,Designer,Afternoon,0.28,0.85,0.48,True
+U000248,User 248,user248@example.com,2025-08-19,Standard,Jeddah - Corniche,Paid,2025-08-01,11-50,Other,Midday,0.4399999999999999,0.37,0.5,True
+U000249,User 249,user249@example.com,2025-08-20,Standard,Dammam - Waterfront,Paid,2025-08-01,200+,Founder,Afternoon,0.39,0.3,0.32,True
+U000250,User 250,user250@example.com,2025-10-10,Enterprise,Jeddah - Corniche,Paid,2025-10-01,11-50,Engineer,Afternoon,0.28,0.77,0.5299999999999999,True
+U000251,User 251,user251@example.com,2025-09-21,Pro,Jeddah - Corniche,Partnership,2025-09-01,Solo,Engineer,Afternoon,0.49,0.23,0.5399999999999999,True
+U000252,User 252,user252@example.com,2025-09-02,Standard,Jeddah - Corniche,Organic,2025-09-01,200+,Analyst,Midday,0.48,0.48,0.31,True
+U000253,User 253,user253@example.com,2025-09-09,Enterprise,Jeddah - Corniche,Referral,2025-09-01,Solo,Designer,Morning,0.24,0.31,0.58,True
+U000254,User 254,user254@example.com,2025-09-08,Standard,Riyadh - Olaya,Organic,2025-09-01,11-50,Designer,Afternoon,0.49,0.54,0.48,True
+U000255,User 255,user255@example.com,2025-10-21,Flex,Riyadh - Digital City,Referral,2025-10-01,200+,Designer,Afternoon,0.25,0.78,0.5,True
+U000256,User 256,user256@example.com,2025-08-01,Standard,Jeddah - Corniche,Partnership,2025-08-01,11-50,Other,Midday,0.25,0.57,0.47,True
+U000257,User 257,user257@example.com,2025-08-11,Standard,Dammam - Waterfront,Partnership,2025-08-01,200+,Analyst,Afternoon,0.35,0.02,0.38,True
+U000258,User 258,user258@example.com,2025-10-31,Pro,Riyadh - Olaya,Partnership,2025-10-01,11-50,Designer,Morning,0.35,0.79,0.5399999999999999,True
+U000259,User 259,user259@example.com,2025-09-26,Enterprise,Riyadh - Olaya,Partnership,2025-09-01,2-10,Other,Midday,0.36,0.68,0.6,True
+U000260,User 260,user260@example.com,2025-10-28,Pro,Dammam - Waterfront,Referral,2025-10-01,11-50,Engineer,Morning,0.21,0.84,0.69,True
+U000261,User 261,user261@example.com,2025-09-19,Pro,Riyadh - Olaya,Paid,2025-09-01,2-10,Founder,Morning,0.31,0.09,0.5499999999999999,True
+U000262,User 262,user262@example.com,2025-08-23,Pro,Jeddah - Corniche,Referral,2025-08-01,11-50,Other,Midday,0.16,0.82,0.69,True
+U000263,User 263,user263@example.com,2025-08-31,Pro,Riyadh - Olaya,Organic,2025-08-01,200+,Engineer,Afternoon,0.26,0.24,0.52,True
+U000264,User 264,user264@example.com,2025-09-11,Pro,Dammam - Waterfront,Partnership,2025-09-01,200+,Engineer,Morning,0.32,0.67,0.52,True
+U000265,User 265,user265@example.com,2025-08-07,Standard,Riyadh - Olaya,Partnership,2025-08-01,200+,Founder,Morning,0.25,0.6,0.35,True
+U000266,User 266,user266@example.com,2025-08-16,Pro,Jeddah - Corniche,Organic,2025-08-01,51-200,Engineer,Morning,0.3,0.28,0.52,True
+U000267,User 267,user267@example.com,2025-10-29,Pro,Riyadh - Olaya,Referral,2025-10-01,Solo,Analyst,Morning,0.32,0.18,0.62,True
+U000268,User 268,user268@example.com,2025-09-29,Enterprise,Riyadh - Olaya,Paid,2025-09-01,200+,Founder,Midday,0.49,0.42,0.7,True
+U000269,User 269,user269@example.com,2025-08-02,Flex,Jeddah - Corniche,Paid,2025-08-01,2-10,Engineer,Midday,0.4,0.65,0.41,True
+U000270,User 270,user270@example.com,2025-08-01,Standard,Riyadh - Digital City,Organic,2025-08-01,200+,Sales,Morning,0.3,0.73,0.32,True
+U000271,User 271,user271@example.com,2025-09-17,Standard,Riyadh - Olaya,Paid,2025-09-01,51-200,Other,Afternoon,0.2,0.6,0.5,True
+U000272,User 272,user272@example.com,2025-08-12,Standard,Riyadh - Digital City,Referral,2025-08-01,2-10,Engineer,Morning,0.26,0.42,0.49,True
+U000273,User 273,user273@example.com,2025-10-08,Pro,Dammam - Waterfront,Referral,2025-10-01,51-200,Analyst,Afternoon,0.27,0.24,0.5499999999999999,True
+U000274,User 274,user274@example.com,2025-09-06,Pro,Jeddah - Corniche,Organic,2025-09-01,2-10,Designer,Morning,0.18,0.19,0.59,True
+U000275,User 275,user275@example.com,2025-09-01,Pro,Dammam - Waterfront,Referral,2025-09-01,11-50,Engineer,Afternoon,0.53,0.47,0.6299999999999999,True
+U000276,User 276,user276@example.com,2025-08-09,Enterprise,Dammam - Waterfront,Partnership,2025-08-01,Solo,Designer,Morning,0.16,0.82,0.5299999999999999,True
+U000277,User 277,user277@example.com,2025-08-19,Flex,Dammam - Waterfront,Organic,2025-08-01,Solo,Sales,Afternoon,0.4,0.86,0.49,True
+U000278,User 278,user278@example.com,2025-09-17,Pro,Jeddah - Corniche,Referral,2025-09-01,51-200,Engineer,Morning,0.41,0.23,0.58,True
+U000279,User 279,user279@example.com,2025-10-19,Flex,Riyadh - Digital City,Organic,2025-10-01,Solo,Founder,Morning,0.41,0.1,0.45,True
+U000280,User 280,user280@example.com,2025-08-03,Enterprise,Riyadh - Digital City,Paid,2025-08-01,51-200,Designer,Afternoon,0.29,0.54,0.6499999999999999,True
+U000281,User 281,user281@example.com,2025-08-20,Standard,Riyadh - Olaya,Referral,2025-08-01,51-200,Sales,Midday,0.22,0.27,0.42,True
+U000282,User 282,user282@example.com,2025-08-24,Pro,Riyadh - Olaya,Partnership,2025-08-01,51-200,Founder,Afternoon,0.21,0.68,0.5499999999999999,True
+U000283,User 283,user283@example.com,2025-09-23,Flex,Riyadh - Olaya,Referral,2025-09-01,Solo,Founder,Midday,0.54,0.62,0.4,True
+U000284,User 284,user284@example.com,2025-09-02,Flex,Jeddah - Corniche,Organic,2025-09-01,51-200,Founder,Morning,0.26,0.58,0.44,True
+U000285,User 285,user285@example.com,2025-08-24,Pro,Riyadh - Olaya,Organic,2025-08-01,Solo,Founder,Afternoon,0.27,0.04,0.61,True
+U000286,User 286,user286@example.com,2025-10-14,Standard,Riyadh - Digital City,Referral,2025-10-01,51-200,Engineer,Afternoon,0.31,0.5,0.41,True
+U000287,User 287,user287@example.com,2025-10-11,Standard,Riyadh - Olaya,Partnership,2025-10-01,200+,Other,Afternoon,0.31,0.2,0.31,True
+U000288,User 288,user288@example.com,2025-09-05,Standard,Riyadh - Digital City,Partnership,2025-09-01,51-200,Engineer,Midday,0.5,0.11,0.3299999999999999,True
+U000289,User 289,user289@example.com,2025-09-07,Enterprise,Dammam - Waterfront,Partnership,2025-09-01,2-10,Engineer,Midday,0.35,0.49,0.51,True
+U000290,User 290,user290@example.com,2025-10-23,Flex,Riyadh - Olaya,Organic,2025-10-01,51-200,Sales,Morning,0.22,0.03,0.42,True
+U000291,User 291,user291@example.com,2025-10-28,Flex,Riyadh - Digital City,Referral,2025-10-01,11-50,Sales,Midday,0.19,0.41,0.36,True
+U000292,User 292,user292@example.com,2025-08-25,Flex,Dammam - Waterfront,Paid,2025-08-01,51-200,Other,Midday,0.4,0.83,0.47,True
+U000293,User 293,user293@example.com,2025-08-18,Enterprise,Riyadh - Olaya,Organic,2025-08-01,2-10,Sales,Morning,0.3,0.37,0.6299999999999999,True
+U000294,User 294,user294@example.com,2025-10-21,Flex,Dammam - Waterfront,Partnership,2025-10-01,2-10,Analyst,Afternoon,0.5,0.24,0.42,True
+U000295,User 295,user295@example.com,2025-10-05,Enterprise,Jeddah - Corniche,Referral,2025-10-01,Solo,Other,Afternoon,0.42,0.13,0.58,True
+U000296,User 296,user296@example.com,2025-09-23,Standard,Riyadh - Digital City,Partnership,2025-09-01,200+,Sales,Morning,0.43,0.74,0.42,True
+U000297,User 297,user297@example.com,2025-09-04,Pro,Dammam - Waterfront,Paid,2025-09-01,51-200,Other,Afternoon,0.26,0.31,0.6699999999999999,True
+U000298,User 298,user298@example.com,2025-10-19,Flex,Riyadh - Digital City,Partnership,2025-10-01,Solo,Engineer,Midday,0.51,0.1,0.3399999999999999,True
+U000299,User 299,user299@example.com,2025-09-30,Flex,Riyadh - Digital City,Partnership,2025-09-01,200+,Engineer,Morning,0.4399999999999999,0.6,0.35,True
+U000300,User 300,user300@example.com,2025-09-10,Standard,Jeddah - Corniche,Paid,2025-09-01,51-200,Other,Morning,0.37,0.17,0.36,True
+U000301,User 301,user301@example.com,2025-09-02,Pro,Jeddah - Corniche,Referral,2025-09-01,11-50,Analyst,Morning,0.3,0.26,0.6799999999999999,True
+U000302,User 302,user302@example.com,2025-10-07,Enterprise,Jeddah - Corniche,Organic,2025-10-01,51-200,Analyst,Afternoon,0.28,0.54,0.51,True
+U000303,User 303,user303@example.com,2025-09-02,Pro,Jeddah - Corniche,Referral,2025-09-01,2-10,Other,Morning,0.24,0.53,0.6599999999999999,True
+U000304,User 304,user304@example.com,2025-08-14,Standard,Riyadh - Olaya,Paid,2025-08-01,2-10,Sales,Morning,0.21,0.81,0.46,True
+U000305,User 305,user305@example.com,2025-08-21,Standard,Dammam - Waterfront,Partnership,2025-08-01,11-50,Designer,Morning,0.51,0.86,0.31,True
+U000306,User 306,user306@example.com,2025-09-17,Pro,Jeddah - Corniche,Referral,2025-09-01,Solo,Analyst,Afternoon,0.43,0.74,0.5599999999999999,True
+U000307,User 307,user307@example.com,2025-08-20,Enterprise,Riyadh - Digital City,Organic,2025-08-01,200+,Founder,Midday,0.1699999999999999,0.2,0.5299999999999999,True
+U000308,User 308,user308@example.com,2025-08-08,Enterprise,Riyadh - Digital City,Paid,2025-08-01,51-200,Engineer,Morning,0.29,0.43,0.5599999999999999,True
+U000309,User 309,user309@example.com,2025-08-07,Flex,Jeddah - Corniche,Referral,2025-08-01,2-10,Other,Midday,0.5,0.04,0.49,True
+U000310,User 310,user310@example.com,2025-10-06,Enterprise,Riyadh - Digital City,Organic,2025-10-01,Solo,Founder,Afternoon,0.3299999999999999,0.86,0.58,True
+U000311,User 311,user311@example.com,2025-08-17,Pro,Jeddah - Corniche,Paid,2025-08-01,11-50,Other,Afternoon,0.27,0.4,0.6699999999999999,True
+U000312,User 312,user312@example.com,2025-09-02,Standard,Riyadh - Digital City,Organic,2025-09-01,2-10,Engineer,Afternoon,0.35,0.58,0.41,True
+U000313,User 313,user313@example.com,2025-09-17,Flex,Riyadh - Olaya,Paid,2025-09-01,11-50,Engineer,Afternoon,0.51,0.88,0.38,True
+U000314,User 314,user314@example.com,2025-10-15,Flex,Dammam - Waterfront,Partnership,2025-10-01,51-200,Analyst,Midday,0.41,0.53,0.41,True
+U000315,User 315,user315@example.com,2025-09-28,Standard,Riyadh - Olaya,Referral,2025-09-01,200+,Analyst,Morning,0.43,0.73,0.42,True
+U000316,User 316,user316@example.com,2025-10-25,Enterprise,Dammam - Waterfront,Organic,2025-10-01,2-10,Founder,Afternoon,0.3399999999999999,0.21,0.6299999999999999,True
+U000317,User 317,user317@example.com,2025-08-22,Standard,Dammam - Waterfront,Paid,2025-08-01,2-10,Other,Afternoon,0.39,0.82,0.48,True
+U000318,User 318,user318@example.com,2025-08-30,Enterprise,Dammam - Waterfront,Organic,2025-08-01,51-200,Engineer,Midday,0.2,0.64,0.5499999999999999,True
+U000319,User 319,user319@example.com,2025-09-07,Standard,Riyadh - Olaya,Organic,2025-09-01,Solo,Founder,Midday,0.5,0.63,0.37,True
+U000320,User 320,user320@example.com,2025-09-20,Pro,Dammam - Waterfront,Referral,2025-09-01,200+,Designer,Afternoon,0.16,0.7,0.62,True
+U000321,User 321,user321@example.com,2025-09-23,Enterprise,Riyadh - Olaya,Partnership,2025-09-01,2-10,Founder,Morning,0.36,0.03,0.6,True
+U000322,User 322,user322@example.com,2025-08-08,Pro,Jeddah - Corniche,Organic,2025-08-01,200+,Sales,Morning,0.4599999999999999,0.64,0.6799999999999999,True
+U000323,User 323,user323@example.com,2025-08-27,Flex,Jeddah - Corniche,Paid,2025-08-01,2-10,Founder,Afternoon,0.3,0.14,0.46,True
+U000324,User 324,user324@example.com,2025-08-27,Standard,Riyadh - Digital City,Paid,2025-08-01,200+,Sales,Midday,0.32,0.75,0.41,True
+U000325,User 325,user325@example.com,2025-08-21,Flex,Riyadh - Digital City,Partnership,2025-08-01,11-50,Sales,Afternoon,0.19,0.21,0.38,True
+U000326,User 326,user326@example.com,2025-08-30,Flex,Jeddah - Corniche,Paid,2025-08-01,2-10,Sales,Afternoon,0.5,0.85,0.47,True
+U000327,User 327,user327@example.com,2025-08-28,Flex,Jeddah - Corniche,Partnership,2025-08-01,200+,Designer,Midday,0.4399999999999999,0.46,0.38,True
+U000328,User 328,user328@example.com,2025-10-03,Flex,Riyadh - Olaya,Paid,2025-10-01,Solo,Founder,Afternoon,0.3299999999999999,0.8,0.39,True
+U000329,User 329,user329@example.com,2025-10-08,Standard,Dammam - Waterfront,Referral,2025-10-01,11-50,Founder,Afternoon,0.37,0.45,0.46,True
+U000330,User 330,user330@example.com,2025-09-30,Flex,Riyadh - Olaya,Organic,2025-09-01,11-50,Designer,Afternoon,0.48,0.13,0.41,True
+U000331,User 331,user331@example.com,2025-09-17,Standard,Riyadh - Digital City,Referral,2025-09-01,Solo,Engineer,Midday,0.27,0.49,0.42,True
+U000332,User 332,user332@example.com,2025-08-19,Standard,Dammam - Waterfront,Organic,2025-08-01,200+,Analyst,Morning,0.43,0.19,0.31,True
+U000333,User 333,user333@example.com,2025-08-04,Pro,Riyadh - Olaya,Organic,2025-08-01,51-200,Founder,Morning,0.5,0.49,0.6399999999999999,True
+U000334,User 334,user334@example.com,2025-09-04,Enterprise,Dammam - Waterfront,Organic,2025-09-01,Solo,Analyst,Midday,0.36,0.32,0.69,True
+U000335,User 335,user335@example.com,2025-10-03,Enterprise,Riyadh - Olaya,Referral,2025-10-01,200+,Other,Morning,0.5,0.58,0.6399999999999999,True
+U000336,User 336,user336@example.com,2025-09-18,Standard,Riyadh - Olaya,Organic,2025-09-01,Solo,Other,Afternoon,0.2299999999999999,0.42,0.43,True
+U000337,User 337,user337@example.com,2025-08-17,Pro,Riyadh - Olaya,Referral,2025-08-01,Solo,Designer,Morning,0.53,0.78,0.6399999999999999,True
+U000338,User 338,user338@example.com,2025-09-13,Standard,Riyadh - Olaya,Partnership,2025-09-01,2-10,Other,Afternoon,0.3299999999999999,0.11,0.37,True
+U000339,User 339,user339@example.com,2025-10-31,Standard,Jeddah - Corniche,Paid,2025-10-01,200+,Other,Morning,0.52,0.39,0.32,True
+U000340,User 340,user340@example.com,2025-08-30,Standard,Riyadh - Olaya,Paid,2025-08-01,51-200,Engineer,Midday,0.2,0.19,0.46,True
+U000341,User 341,user341@example.com,2025-09-15,Pro,Riyadh - Olaya,Organic,2025-09-01,2-10,Engineer,Morning,0.29,0.37,0.5299999999999999,True
+U000342,User 342,user342@example.com,2025-08-06,Enterprise,Jeddah - Corniche,Referral,2025-08-01,Solo,Engineer,Morning,0.3399999999999999,0.02,0.51,True
+U000343,User 343,user343@example.com,2025-09-06,Pro,Jeddah - Corniche,Paid,2025-09-01,Solo,Other,Morning,0.2299999999999999,0.27,0.59,True
+U000344,User 344,user344@example.com,2025-08-24,Flex,Dammam - Waterfront,Referral,2025-08-01,Solo,Designer,Midday,0.4599999999999999,0.55,0.3399999999999999,True
+U000345,User 345,user345@example.com,2025-09-15,Pro,Dammam - Waterfront,Referral,2025-09-01,200+,Sales,Morning,0.18,0.89,0.58,True
+U000346,User 346,user346@example.com,2025-09-22,Pro,Riyadh - Digital City,Organic,2025-09-01,200+,Sales,Midday,0.32,0.12,0.69,True
+U000347,User 347,user347@example.com,2025-09-29,Pro,Riyadh - Digital City,Paid,2025-09-01,2-10,Analyst,Afternoon,0.19,0.76,0.58,True
+U000348,User 348,user348@example.com,2025-10-02,Pro,Riyadh - Olaya,Organic,2025-10-01,51-200,Sales,Morning,0.3399999999999999,0.65,0.6399999999999999,True
+U000349,User 349,user349@example.com,2025-10-24,Enterprise,Dammam - Waterfront,Organic,2025-10-01,2-10,Sales,Midday,0.37,0.36,0.61,True
+U000350,User 350,user350@example.com,2025-09-01,Flex,Jeddah - Corniche,Paid,2025-09-01,11-50,Engineer,Midday,0.25,0.48,0.45,True
+U000351,User 351,user351@example.com,2025-10-26,Enterprise,Riyadh - Olaya,Paid,2025-10-01,Solo,Engineer,Morning,0.51,0.65,0.6799999999999999,True
+U000352,User 352,user352@example.com,2025-09-02,Enterprise,Dammam - Waterfront,Partnership,2025-09-01,Solo,Other,Afternoon,0.36,0.35,0.6799999999999999,True
+U000353,User 353,user353@example.com,2025-10-06,Pro,Riyadh - Olaya,Partnership,2025-10-01,Solo,Analyst,Midday,0.18,0.53,0.5299999999999999,True
+U000354,User 354,user354@example.com,2025-08-18,Standard,Dammam - Waterfront,Referral,2025-08-01,2-10,Founder,Morning,0.43,0.25,0.4,True
+U000355,User 355,user355@example.com,2025-08-25,Standard,Riyadh - Olaya,Paid,2025-08-01,2-10,Analyst,Afternoon,0.48,0.74,0.31,True
+U000356,User 356,user356@example.com,2025-09-23,Enterprise,Dammam - Waterfront,Partnership,2025-09-01,Solo,Analyst,Midday,0.27,0.71,0.6599999999999999,True
+U000357,User 357,user357@example.com,2025-09-27,Enterprise,Dammam - Waterfront,Referral,2025-09-01,2-10,Designer,Midday,0.2299999999999999,0.39,0.52,True
+U000358,User 358,user358@example.com,2025-10-06,Pro,Jeddah - Corniche,Referral,2025-10-01,200+,Other,Afternoon,0.4499999999999999,0.42,0.52,True
+U000359,User 359,user359@example.com,2025-09-15,Enterprise,Dammam - Waterfront,Referral,2025-09-01,200+,Designer,Afternoon,0.21,0.21,0.5599999999999999,True
+U000360,User 360,user360@example.com,2025-08-24,Pro,Riyadh - Digital City,Partnership,2025-08-01,2-10,Analyst,Morning,0.18,0.19,0.5499999999999999,True
+U000361,User 361,user361@example.com,2025-09-01,Standard,Riyadh - Olaya,Paid,2025-09-01,Solo,Analyst,Morning,0.3299999999999999,0.07,0.42,True
+U000362,User 362,user362@example.com,2025-09-16,Standard,Jeddah - Corniche,Organic,2025-09-01,2-10,Analyst,Midday,0.4399999999999999,0.28,0.47,True
+U000363,User 363,user363@example.com,2025-10-25,Flex,Jeddah - Corniche,Referral,2025-10-01,2-10,Sales,Afternoon,0.4499999999999999,0.39,0.36,True
+U000364,User 364,user364@example.com,2025-08-23,Standard,Jeddah - Corniche,Partnership,2025-08-01,2-10,Designer,Afternoon,0.49,0.89,0.39,True
+U000365,User 365,user365@example.com,2025-10-05,Enterprise,Riyadh - Digital City,Partnership,2025-10-01,11-50,Analyst,Afternoon,0.35,0.29,0.6799999999999999,True
+U000366,User 366,user366@example.com,2025-08-27,Standard,Dammam - Waterfront,Organic,2025-08-01,200+,Engineer,Midday,0.4499999999999999,0.8,0.37,True
+U000367,User 367,user367@example.com,2025-08-02,Pro,Riyadh - Olaya,Organic,2025-08-01,51-200,Other,Afternoon,0.3299999999999999,0.83,0.5399999999999999,True
+U000368,User 368,user368@example.com,2025-10-29,Standard,Jeddah - Corniche,Partnership,2025-10-01,51-200,Other,Afternoon,0.4499999999999999,0.54,0.32,True
+U000369,User 369,user369@example.com,2025-08-17,Flex,Riyadh - Digital City,Paid,2025-08-01,11-50,Engineer,Midday,0.4599999999999999,0.15,0.45,True
+U000370,User 370,user370@example.com,2025-09-02,Standard,Riyadh - Digital City,Organic,2025-09-01,2-10,Other,Morning,0.16,0.45,0.47,True
+U000371,User 371,user371@example.com,2025-08-09,Pro,Riyadh - Olaya,Partnership,2025-08-01,11-50,Sales,Morning,0.24,0.61,0.6399999999999999,True
+U000372,User 372,user372@example.com,2025-09-12,Pro,Riyadh - Olaya,Organic,2025-09-01,11-50,Sales,Midday,0.16,0.06,0.52,True
+U000373,User 373,user373@example.com,2025-09-17,Enterprise,Jeddah - Corniche,Paid,2025-09-01,Solo,Founder,Afternoon,0.16,0.79,0.5399999999999999,True
+U000374,User 374,user374@example.com,2025-09-08,Standard,Riyadh - Olaya,Referral,2025-09-01,200+,Founder,Midday,0.38,0.44,0.35,True
+U000375,User 375,user375@example.com,2025-09-11,Pro,Dammam - Waterfront,Organic,2025-09-01,51-200,Founder,Morning,0.31,0.58,0.5599999999999999,True
+U000376,User 376,user376@example.com,2025-08-26,Flex,Riyadh - Olaya,Paid,2025-08-01,2-10,Other,Morning,0.4599999999999999,0.55,0.43,True
+U000377,User 377,user377@example.com,2025-09-19,Enterprise,Jeddah - Corniche,Partnership,2025-09-01,51-200,Sales,Midday,0.3,0.47,0.52,True
+U000378,User 378,user378@example.com,2025-08-25,Flex,Jeddah - Corniche,Organic,2025-08-01,51-200,Sales,Midday,0.3,0.26,0.43,True
+U000379,User 379,user379@example.com,2025-08-24,Standard,Riyadh - Olaya,Organic,2025-08-01,200+,Sales,Morning,0.53,0.52,0.3299999999999999,True
+U000380,User 380,user380@example.com,2025-08-13,Standard,Jeddah - Corniche,Partnership,2025-08-01,51-200,Engineer,Midday,0.4499999999999999,0.86,0.35,True
+U000381,User 381,user381@example.com,2025-09-29,Standard,Riyadh - Olaya,Referral,2025-09-01,51-200,Sales,Morning,0.38,0.87,0.31,True
+U000382,User 382,user382@example.com,2025-08-07,Enterprise,Jeddah - Corniche,Partnership,2025-08-01,11-50,Engineer,Midday,0.15,0.72,0.52,True
+U000383,User 383,user383@example.com,2025-09-26,Pro,Jeddah - Corniche,Organic,2025-09-01,200+,Founder,Midday,0.25,0.34,0.61,True
+U000384,User 384,user384@example.com,2025-09-05,Enterprise,Riyadh - Olaya,Partnership,2025-09-01,Solo,Founder,Midday,0.35,0.5,0.5399999999999999,True
+U000385,User 385,user385@example.com,2025-09-14,Flex,Jeddah - Corniche,Paid,2025-09-01,2-10,Other,Morning,0.18,0.83,0.38,True
+U000386,User 386,user386@example.com,2025-08-20,Enterprise,Riyadh - Olaya,Partnership,2025-08-01,51-200,Founder,Midday,0.21,0.36,0.58,True
+U000387,User 387,user387@example.com,2025-10-04,Flex,Dammam - Waterfront,Organic,2025-10-01,2-10,Other,Morning,0.4,0.8,0.44,True
+U000388,User 388,user388@example.com,2025-08-08,Enterprise,Dammam - Waterfront,Partnership,2025-08-01,Solo,Analyst,Morning,0.26,0.56,0.61,True
+U000389,User 389,user389@example.com,2025-08-16,Pro,Riyadh - Digital City,Referral,2025-08-01,2-10,Analyst,Midday,0.4499999999999999,0.07,0.69,True
+U000390,User 390,user390@example.com,2025-08-14,Flex,Dammam - Waterfront,Partnership,2025-08-01,Solo,Designer,Midday,0.31,0.78,0.47,True
+U000391,User 391,user391@example.com,2025-10-15,Standard,Riyadh - Digital City,Referral,2025-10-01,11-50,Other,Morning,0.47,0.19,0.45,True
+U000392,User 392,user392@example.com,2025-10-26,Standard,Jeddah - Corniche,Paid,2025-10-01,51-200,Designer,Morning,0.25,0.52,0.3299999999999999,True
+U000393,User 393,user393@example.com,2025-08-15,Enterprise,Jeddah - Corniche,Referral,2025-08-01,Solo,Designer,Afternoon,0.42,0.11,0.6499999999999999,True
+U000394,User 394,user394@example.com,2025-10-31,Standard,Riyadh - Digital City,Partnership,2025-10-01,2-10,Analyst,Morning,0.4599999999999999,0.48,0.3399999999999999,True
+U000395,User 395,user395@example.com,2025-10-05,Flex,Dammam - Waterfront,Organic,2025-10-01,51-200,Other,Afternoon,0.15,0.16,0.37,True
+U000396,User 396,user396@example.com,2025-09-01,Standard,Dammam - Waterfront,Referral,2025-09-01,11-50,Analyst,Afternoon,0.42,0.63,0.4,True
+U000397,User 397,user397@example.com,2025-10-26,Pro,Riyadh - Olaya,Paid,2025-10-01,51-200,Designer,Afternoon,0.21,0.41,0.52,True
+U000398,User 398,user398@example.com,2025-10-02,Pro,Jeddah - Corniche,Referral,2025-10-01,Solo,Other,Midday,0.16,0.28,0.69,True
+U000399,User 399,user399@example.com,2025-10-25,Enterprise,Dammam - Waterfront,Referral,2025-10-01,11-50,Designer,Midday,0.38,0.18,0.6799999999999999,True
+U000400,User 400,user400@example.com,2025-09-20,Flex,Dammam - Waterfront,Referral,2025-09-01,2-10,Sales,Morning,0.18,0.1,0.4,True
+U000401,User 401,user401@example.com,2025-08-25,Pro,Riyadh - Digital City,Paid,2025-08-01,11-50,Other,Afternoon,0.3299999999999999,0.49,0.6499999999999999,True
+U000402,User 402,user402@example.com,2025-09-27,Pro,Jeddah - Corniche,Partnership,2025-09-01,11-50,Other,Midday,0.4,0.7,0.57,True
+U000403,User 403,user403@example.com,2025-10-02,Flex,Riyadh - Olaya,Referral,2025-10-01,200+,Designer,Midday,0.25,0.57,0.32,True
+U000404,User 404,user404@example.com,2025-10-01,Standard,Riyadh - Digital City,Referral,2025-10-01,11-50,Sales,Midday,0.54,0.33,0.35,True
+U000405,User 405,user405@example.com,2025-08-22,Standard,Riyadh - Olaya,Organic,2025-08-01,11-50,Engineer,Midday,0.25,0.19,0.44,True
+U000406,User 406,user406@example.com,2025-09-27,Enterprise,Jeddah - Corniche,Paid,2025-09-01,51-200,Analyst,Midday,0.1699999999999999,0.49,0.6299999999999999,True
+U000407,User 407,user407@example.com,2025-09-27,Standard,Riyadh - Olaya,Referral,2025-09-01,2-10,Designer,Afternoon,0.26,0.87,0.32,True
+U000408,User 408,user408@example.com,2025-10-25,Flex,Riyadh - Olaya,Paid,2025-10-01,51-200,Other,Afternoon,0.1699999999999999,0.09,0.31,True
+U000409,User 409,user409@example.com,2025-09-18,Pro,Dammam - Waterfront,Referral,2025-09-01,51-200,Analyst,Afternoon,0.41,0.31,0.5499999999999999,True
+U000410,User 410,user410@example.com,2025-09-21,Standard,Riyadh - Olaya,Partnership,2025-09-01,Solo,Analyst,Afternoon,0.16,0.51,0.44,True
+U000411,User 411,user411@example.com,2025-09-11,Enterprise,Jeddah - Corniche,Partnership,2025-09-01,51-200,Analyst,Morning,0.3,0.14,0.62,True
+U000412,User 412,user412@example.com,2025-10-09,Standard,Riyadh - Olaya,Referral,2025-10-01,200+,Engineer,Afternoon,0.16,0.83,0.38,True
+U000413,User 413,user413@example.com,2025-08-15,Flex,Jeddah - Corniche,Partnership,2025-08-01,200+,Founder,Midday,0.4399999999999999,0.02,0.5,True
+U000414,User 414,user414@example.com,2025-09-23,Enterprise,Riyadh - Olaya,Referral,2025-09-01,Solo,Designer,Afternoon,0.3399999999999999,0.36,0.6299999999999999,True
+U000415,User 415,user415@example.com,2025-09-29,Standard,Jeddah - Corniche,Partnership,2025-09-01,2-10,Founder,Morning,0.52,0.39,0.47,True
+U000416,User 416,user416@example.com,2025-08-08,Enterprise,Riyadh - Olaya,Organic,2025-08-01,2-10,Founder,Midday,0.42,0.71,0.6799999999999999,True
+U000417,User 417,user417@example.com,2025-09-22,Flex,Jeddah - Corniche,Organic,2025-09-01,51-200,Founder,Afternoon,0.39,0.39,0.48,True
+U000418,User 418,user418@example.com,2025-09-29,Pro,Dammam - Waterfront,Organic,2025-09-01,51-200,Analyst,Afternoon,0.4599999999999999,0.55,0.58,True
+U000419,User 419,user419@example.com,2025-08-05,Flex,Dammam - Waterfront,Paid,2025-08-01,51-200,Sales,Afternoon,0.24,0.22,0.43,True
+U000420,User 420,user420@example.com,2025-10-07,Flex,Riyadh - Olaya,Paid,2025-10-01,2-10,Analyst,Midday,0.54,0.1,0.44,True
+U000421,User 421,user421@example.com,2025-08-06,Flex,Riyadh - Digital City,Organic,2025-08-01,11-50,Analyst,Midday,0.47,0.63,0.5,True
+U000422,User 422,user422@example.com,2025-09-16,Flex,Jeddah - Corniche,Paid,2025-09-01,200+,Other,Morning,0.27,0.07,0.35,True
+U000423,User 423,user423@example.com,2025-09-24,Pro,Riyadh - Digital City,Partnership,2025-09-01,11-50,Other,Midday,0.51,0.55,0.6499999999999999,True
+U000424,User 424,user424@example.com,2025-09-09,Pro,Riyadh - Digital City,Referral,2025-09-01,11-50,Founder,Midday,0.3,0.59,0.6399999999999999,True
+U000425,User 425,user425@example.com,2025-09-21,Enterprise,Riyadh - Digital City,Referral,2025-09-01,2-10,Analyst,Afternoon,0.36,0.09,0.59,True
+U000426,User 426,user426@example.com,2025-08-16,Standard,Riyadh - Olaya,Referral,2025-08-01,11-50,Founder,Midday,0.3399999999999999,0.38,0.42,True
+U000427,User 427,user427@example.com,2025-08-13,Pro,Riyadh - Digital City,Organic,2025-08-01,Solo,Other,Afternoon,0.41,0.27,0.6,True
+U000428,User 428,user428@example.com,2025-08-30,Pro,Riyadh - Olaya,Paid,2025-08-01,51-200,Sales,Afternoon,0.3,0.48,0.61,True
+U000429,User 429,user429@example.com,2025-08-19,Standard,Jeddah - Corniche,Partnership,2025-08-01,Solo,Designer,Midday,0.48,0.35,0.5,True
+U000430,User 430,user430@example.com,2025-08-17,Pro,Riyadh - Olaya,Partnership,2025-08-01,200+,Founder,Morning,0.4599999999999999,0.12,0.5299999999999999,True
+U000431,User 431,user431@example.com,2025-10-02,Flex,Dammam - Waterfront,Organic,2025-10-01,51-200,Sales,Morning,0.4,0.35,0.47,True
+U000432,User 432,user432@example.com,2025-08-19,Flex,Jeddah - Corniche,Partnership,2025-08-01,11-50,Designer,Midday,0.39,0.25,0.46,True
+U000433,User 433,user433@example.com,2025-10-31,Standard,Riyadh - Olaya,Partnership,2025-10-01,200+,Engineer,Morning,0.16,0.85,0.42,True
+U000434,User 434,user434@example.com,2025-09-27,Enterprise,Jeddah - Corniche,Partnership,2025-09-01,51-200,Founder,Afternoon,0.26,0.03,0.5399999999999999,True
+U000435,User 435,user435@example.com,2025-09-24,Enterprise,Dammam - Waterfront,Partnership,2025-09-01,11-50,Founder,Afternoon,0.54,0.81,0.6799999999999999,True
+U000436,User 436,user436@example.com,2025-10-29,Standard,Jeddah - Corniche,Paid,2025-10-01,Solo,Engineer,Midday,0.2299999999999999,0.63,0.35,True
+U000437,User 437,user437@example.com,2025-10-29,Standard,Riyadh - Olaya,Partnership,2025-10-01,51-200,Engineer,Morning,0.26,0.37,0.46,True
+U000438,User 438,user438@example.com,2025-10-01,Flex,Riyadh - Olaya,Referral,2025-10-01,11-50,Founder,Morning,0.4,0.87,0.35,True
+U000439,User 439,user439@example.com,2025-08-23,Enterprise,Riyadh - Digital City,Organic,2025-08-01,Solo,Engineer,Afternoon,0.2299999999999999,0.86,0.6799999999999999,True
+U000440,User 440,user440@example.com,2025-08-09,Pro,Riyadh - Olaya,Paid,2025-08-01,200+,Analyst,Midday,0.24,0.21,0.51,True
+U000441,User 441,user441@example.com,2025-08-12,Flex,Riyadh - Digital City,Partnership,2025-08-01,200+,Designer,Morning,0.4599999999999999,0.01,0.36,True
+U000442,User 442,user442@example.com,2025-08-01,Standard,Jeddah - Corniche,Paid,2025-08-01,200+,Designer,Midday,0.48,0.3,0.48,True
+U000443,User 443,user443@example.com,2025-09-27,Enterprise,Riyadh - Olaya,Partnership,2025-09-01,200+,Designer,Morning,0.3399999999999999,0.1,0.51,True
+U000444,User 444,user444@example.com,2025-08-01,Pro,Jeddah - Corniche,Referral,2025-08-01,2-10,Analyst,Afternoon,0.53,0.45,0.57,True
+U000445,User 445,user445@example.com,2025-09-03,Pro,Riyadh - Olaya,Organic,2025-09-01,51-200,Engineer,Afternoon,0.16,0.61,0.5499999999999999,True
+U000446,User 446,user446@example.com,2025-09-17,Flex,Dammam - Waterfront,Partnership,2025-09-01,51-200,Sales,Midday,0.15,0.68,0.3399999999999999,True
+U000447,User 447,user447@example.com,2025-10-28,Enterprise,Jeddah - Corniche,Partnership,2025-10-01,2-10,Engineer,Afternoon,0.5,0.63,0.51,True
+U000448,User 448,user448@example.com,2025-08-01,Enterprise,Dammam - Waterfront,Partnership,2025-08-01,11-50,Founder,Morning,0.38,0.09,0.5299999999999999,True
+U000449,User 449,user449@example.com,2025-08-16,Standard,Riyadh - Olaya,Partnership,2025-08-01,11-50,Other,Afternoon,0.41,0.39,0.3299999999999999,True
+U000450,User 450,user450@example.com,2025-09-30,Enterprise,Riyadh - Olaya,Organic,2025-09-01,200+,Designer,Midday,0.16,0.23,0.57,True
+U000451,User 451,user451@example.com,2025-10-03,Enterprise,Riyadh - Digital City,Organic,2025-10-01,Solo,Engineer,Midday,0.4499999999999999,0.43,0.5299999999999999,True
+U000452,User 452,user452@example.com,2025-10-02,Flex,Riyadh - Olaya,Referral,2025-10-01,11-50,Sales,Midday,0.28,0.59,0.36,True
+U000453,User 453,user453@example.com,2025-10-08,Enterprise,Riyadh - Olaya,Organic,2025-10-01,Solo,Founder,Morning,0.16,0.61,0.5599999999999999,True
+U000454,User 454,user454@example.com,2025-08-22,Pro,Dammam - Waterfront,Partnership,2025-08-01,51-200,Analyst,Morning,0.43,0.86,0.6499999999999999,True
+U000455,User 455,user455@example.com,2025-10-06,Flex,Jeddah - Corniche,Referral,2025-10-01,Solo,Analyst,Morning,0.29,0.16,0.36,True
+U000456,User 456,user456@example.com,2025-10-15,Flex,Jeddah - Corniche,Referral,2025-10-01,51-200,Sales,Morning,0.26,0.64,0.3299999999999999,True
+U000457,User 457,user457@example.com,2025-08-26,Standard,Riyadh - Digital City,Referral,2025-08-01,2-10,Founder,Morning,0.51,0.56,0.47,True
+U000458,User 458,user458@example.com,2025-08-16,Enterprise,Riyadh - Olaya,Partnership,2025-08-01,2-10,Designer,Afternoon,0.42,0.54,0.6299999999999999,True
+U000459,User 459,user459@example.com,2025-09-20,Standard,Riyadh - Digital City,Paid,2025-09-01,200+,Engineer,Morning,0.3399999999999999,0.52,0.36,True
+U000460,User 460,user460@example.com,2025-10-25,Pro,Jeddah - Corniche,Partnership,2025-10-01,11-50,Founder,Morning,0.53,0.55,0.6799999999999999,True
+U000461,User 461,user461@example.com,2025-09-26,Flex,Riyadh - Olaya,Organic,2025-09-01,200+,Analyst,Afternoon,0.38,0.08,0.36,True
+U000462,User 462,user462@example.com,2025-08-29,Flex,Riyadh - Olaya,Organic,2025-08-01,51-200,Sales,Morning,0.35,0.21,0.38,True
+U000463,User 463,user463@example.com,2025-10-17,Flex,Jeddah - Corniche,Partnership,2025-10-01,200+,Sales,Midday,0.24,0.12,0.42,True
+U000464,User 464,user464@example.com,2025-10-31,Pro,Riyadh - Digital City,Partnership,2025-10-01,Solo,Engineer,Morning,0.28,0.88,0.69,True
+U000465,User 465,user465@example.com,2025-10-08,Pro,Riyadh - Digital City,Referral,2025-10-01,51-200,Sales,Morning,0.51,0.47,0.6299999999999999,True
+U000466,User 466,user466@example.com,2025-09-16,Standard,Riyadh - Digital City,Partnership,2025-09-01,2-10,Sales,Midday,0.32,0.17,0.31,True
+U000467,User 467,user467@example.com,2025-10-01,Standard,Jeddah - Corniche,Referral,2025-10-01,11-50,Founder,Midday,0.38,0.75,0.3399999999999999,True
+U000468,User 468,user468@example.com,2025-10-08,Standard,Riyadh - Olaya,Organic,2025-10-01,51-200,Designer,Midday,0.28,0.39,0.38,True
+U000469,User 469,user469@example.com,2025-10-15,Enterprise,Dammam - Waterfront,Referral,2025-10-01,51-200,Engineer,Midday,0.48,0.16,0.7,True
+U000470,User 470,user470@example.com,2025-08-16,Flex,Riyadh - Digital City,Partnership,2025-08-01,Solo,Founder,Morning,0.26,0.14,0.49,True
+U000471,User 471,user471@example.com,2025-10-29,Flex,Riyadh - Olaya,Organic,2025-10-01,11-50,Designer,Midday,0.36,0.14,0.36,True
+U000472,User 472,user472@example.com,2025-10-29,Standard,Riyadh - Olaya,Paid,2025-10-01,2-10,Founder,Midday,0.2,0.78,0.39,True
+U000473,User 473,user473@example.com,2025-09-17,Flex,Dammam - Waterfront,Referral,2025-09-01,51-200,Other,Afternoon,0.5,0.62,0.37,True
+U000474,User 474,user474@example.com,2025-10-24,Standard,Jeddah - Corniche,Organic,2025-10-01,51-200,Founder,Midday,0.5,0.38,0.49,True
+U000475,User 475,user475@example.com,2025-09-08,Enterprise,Riyadh - Olaya,Referral,2025-09-01,Solo,Sales,Midday,0.36,0.12,0.5299999999999999,True
+U000476,User 476,user476@example.com,2025-09-02,Enterprise,Riyadh - Olaya,Organic,2025-09-01,200+,Designer,Afternoon,0.28,0.8,0.6399999999999999,True
+U000477,User 477,user477@example.com,2025-08-23,Pro,Riyadh - Olaya,Organic,2025-08-01,2-10,Engineer,Afternoon,0.3,0.31,0.6499999999999999,True
+U000478,User 478,user478@example.com,2025-08-10,Enterprise,Dammam - Waterfront,Referral,2025-08-01,11-50,Engineer,Morning,0.5,0.08,0.57,True
+U000479,User 479,user479@example.com,2025-10-08,Standard,Jeddah - Corniche,Paid,2025-10-01,51-200,Designer,Afternoon,0.39,0.39,0.43,True
+U000480,User 480,user480@example.com,2025-09-03,Enterprise,Riyadh - Olaya,Organic,2025-09-01,51-200,Sales,Morning,0.4599999999999999,0.19,0.69,True
+U000481,User 481,user481@example.com,2025-09-21,Pro,Jeddah - Corniche,Organic,2025-09-01,2-10,Analyst,Afternoon,0.47,0.89,0.5399999999999999,True
+U000482,User 482,user482@example.com,2025-08-10,Flex,Dammam - Waterfront,Organic,2025-08-01,200+,Founder,Afternoon,0.5,0.84,0.46,True
+U000483,User 483,user483@example.com,2025-08-19,Standard,Riyadh - Olaya,Paid,2025-08-01,51-200,Sales,Morning,0.3399999999999999,0.81,0.37,True
+U000484,User 484,user484@example.com,2025-09-27,Flex,Riyadh - Digital City,Paid,2025-09-01,2-10,Other,Afternoon,0.32,0.76,0.31,True
+U000485,User 485,user485@example.com,2025-08-01,Pro,Jeddah - Corniche,Partnership,2025-08-01,Solo,Designer,Morning,0.52,0.79,0.6799999999999999,True
+U000486,User 486,user486@example.com,2025-10-08,Pro,Riyadh - Olaya,Referral,2025-10-01,200+,Founder,Afternoon,0.1699999999999999,0.72,0.6599999999999999,True
+U000487,User 487,user487@example.com,2025-08-04,Pro,Riyadh - Digital City,Paid,2025-08-01,11-50,Engineer,Midday,0.37,0.62,0.5499999999999999,True
+U000488,User 488,user488@example.com,2025-08-16,Flex,Jeddah - Corniche,Referral,2025-08-01,51-200,Analyst,Afternoon,0.4599999999999999,0.75,0.3299999999999999,True
+U000489,User 489,user489@example.com,2025-08-24,Flex,Riyadh - Olaya,Partnership,2025-08-01,2-10,Other,Morning,0.3,0.43,0.3399999999999999,True
+U000490,User 490,user490@example.com,2025-10-19,Flex,Riyadh - Digital City,Referral,2025-10-01,Solo,Engineer,Afternoon,0.19,0.37,0.4,True
+U000491,User 491,user491@example.com,2025-08-02,Flex,Jeddah - Corniche,Paid,2025-08-01,11-50,Designer,Morning,0.18,0.82,0.3399999999999999,True
+U000492,User 492,user492@example.com,2025-10-31,Pro,Dammam - Waterfront,Referral,2025-10-01,2-10,Founder,Morning,0.35,0.59,0.5499999999999999,True
+U000493,User 493,user493@example.com,2025-09-01,Pro,Riyadh - Olaya,Paid,2025-09-01,2-10,Designer,Midday,0.54,0.7,0.69,True
+U000494,User 494,user494@example.com,2025-10-30,Standard,Riyadh - Digital City,Referral,2025-10-01,11-50,Founder,Midday,0.28,0.47,0.47,True
+U000495,User 495,user495@example.com,2025-10-23,Standard,Dammam - Waterfront,Paid,2025-10-01,Solo,Sales,Morning,0.53,0.17,0.44,True
+U000496,User 496,user496@example.com,2025-08-24,Flex,Jeddah - Corniche,Paid,2025-08-01,Solo,Analyst,Afternoon,0.4499999999999999,0.15,0.49,True
+U000497,User 497,user497@example.com,2025-08-12,Enterprise,Riyadh - Olaya,Referral,2025-08-01,200+,Sales,Morning,0.28,0.54,0.6499999999999999,True
+U000498,User 498,user498@example.com,2025-09-19,Enterprise,Riyadh - Digital City,Partnership,2025-09-01,51-200,Sales,Morning,0.2,0.38,0.5399999999999999,True
+U000499,User 499,user499@example.com,2025-09-04,Pro,Riyadh - Digital City,Organic,2025-09-01,11-50,Designer,Afternoon,0.26,0.67,0.6399999999999999,True
+U000500,User 500,user500@example.com,2025-09-02,Pro,Dammam - Waterfront,Partnership,2025-09-01,11-50,Analyst,Afternoon,0.3,0.58,0.6599999999999999,True
+U000501,User 501,user501@example.com,2025-09-02,Pro,Jeddah - Corniche,Referral,2025-09-01,11-50,Founder,Afternoon,0.31,0.88,0.6599999999999999,True
+U000502,User 502,user502@example.com,2025-09-30,Standard,Dammam - Waterfront,Partnership,2025-09-01,Solo,Founder,Afternoon,0.37,0.61,0.31,True
+U000503,User 503,user503@example.com,2025-09-20,Standard,Jeddah - Corniche,Paid,2025-09-01,51-200,Other,Morning,0.28,0.12,0.35,True
+U000504,User 504,user504@example.com,2025-09-12,Pro,Jeddah - Corniche,Organic,2025-09-01,200+,Engineer,Morning,0.21,0.8,0.52,True
+U000505,User 505,user505@example.com,2025-08-12,Pro,Riyadh - Digital City,Referral,2025-08-01,2-10,Other,Midday,0.4599999999999999,0.05,0.62,True
+U000506,User 506,user506@example.com,2025-10-06,Pro,Riyadh - Digital City,Referral,2025-10-01,2-10,Other,Morning,0.29,0.82,0.6599999999999999,True
+U000507,User 507,user507@example.com,2025-10-04,Enterprise,Riyadh - Olaya,Referral,2025-10-01,11-50,Founder,Afternoon,0.31,0.76,0.6299999999999999,True
+U000508,User 508,user508@example.com,2025-09-02,Standard,Jeddah - Corniche,Organic,2025-09-01,51-200,Designer,Midday,0.48,0.59,0.42,True
+U000509,User 509,user509@example.com,2025-09-09,Enterprise,Jeddah - Corniche,Paid,2025-09-01,Solo,Sales,Afternoon,0.19,0.89,0.6599999999999999,True
+U000510,User 510,user510@example.com,2025-10-13,Enterprise,Riyadh - Olaya,Referral,2025-10-01,51-200,Sales,Morning,0.41,0.13,0.61,True
+U000511,User 511,user511@example.com,2025-09-12,Pro,Jeddah - Corniche,Partnership,2025-09-01,51-200,Sales,Midday,0.37,0.53,0.69,True
+U000512,User 512,user512@example.com,2025-09-13,Pro,Riyadh - Digital City,Referral,2025-09-01,Solo,Analyst,Afternoon,0.54,0.03,0.62,True
+U000513,User 513,user513@example.com,2025-08-29,Flex,Riyadh - Olaya,Referral,2025-08-01,11-50,Founder,Midday,0.28,0.38,0.4,True
+U000514,User 514,user514@example.com,2025-08-13,Flex,Riyadh - Olaya,Referral,2025-08-01,51-200,Designer,Midday,0.29,0.71,0.47,True
+U000515,User 515,user515@example.com,2025-08-12,Enterprise,Jeddah - Corniche,Referral,2025-08-01,2-10,Analyst,Morning,0.47,0.24,0.69,True
+U000516,User 516,user516@example.com,2025-09-15,Standard,Dammam - Waterfront,Paid,2025-09-01,Solo,Engineer,Afternoon,0.4499999999999999,0.76,0.45,True
+U000517,User 517,user517@example.com,2025-08-02,Pro,Riyadh - Olaya,Partnership,2025-08-01,200+,Designer,Midday,0.49,0.31,0.57,True
+U000518,User 518,user518@example.com,2025-09-04,Pro,Jeddah - Corniche,Paid,2025-09-01,11-50,Other,Midday,0.31,0.58,0.7,True
+U000519,User 519,user519@example.com,2025-10-26,Enterprise,Dammam - Waterfront,Partnership,2025-10-01,Solo,Designer,Afternoon,0.42,0.62,0.5299999999999999,True
+U000520,User 520,user520@example.com,2025-10-20,Flex,Jeddah - Corniche,Referral,2025-10-01,200+,Designer,Midday,0.3299999999999999,0.37,0.44,True
+U000521,User 521,user521@example.com,2025-10-29,Standard,Jeddah - Corniche,Organic,2025-10-01,200+,Sales,Midday,0.37,0.52,0.5,True
+U000522,User 522,user522@example.com,2025-08-08,Flex,Riyadh - Olaya,Paid,2025-08-01,51-200,Designer,Midday,0.4599999999999999,0.66,0.5,True
+U000523,User 523,user523@example.com,2025-08-26,Flex,Jeddah - Corniche,Organic,2025-08-01,51-200,Other,Afternoon,0.54,0.27,0.5,True
+U000524,User 524,user524@example.com,2025-10-13,Flex,Dammam - Waterfront,Paid,2025-10-01,51-200,Other,Afternoon,0.27,0.02,0.47,True
+U000525,User 525,user525@example.com,2025-10-29,Flex,Riyadh - Olaya,Referral,2025-10-01,Solo,Founder,Afternoon,0.3399999999999999,0.79,0.47,True
+U000526,User 526,user526@example.com,2025-09-03,Pro,Dammam - Waterfront,Paid,2025-09-01,Solo,Designer,Afternoon,0.49,0.21,0.5299999999999999,True
+U000527,User 527,user527@example.com,2025-08-07,Pro,Jeddah - Corniche,Referral,2025-08-01,11-50,Sales,Morning,0.19,0.37,0.6,True
+U000528,User 528,user528@example.com,2025-10-07,Flex,Jeddah - Corniche,Paid,2025-10-01,51-200,Designer,Midday,0.2299999999999999,0.71,0.5,True
+U000529,User 529,user529@example.com,2025-09-27,Standard,Riyadh - Digital City,Referral,2025-09-01,200+,Engineer,Afternoon,0.43,0.71,0.41,True
+U000530,User 530,user530@example.com,2025-10-14,Enterprise,Riyadh - Olaya,Referral,2025-10-01,2-10,Engineer,Midday,0.2,0.61,0.62,True
+U000531,User 531,user531@example.com,2025-08-29,Standard,Dammam - Waterfront,Partnership,2025-08-01,11-50,Sales,Midday,0.39,0.56,0.47,True
+U000532,User 532,user532@example.com,2025-09-05,Standard,Jeddah - Corniche,Referral,2025-09-01,Solo,Founder,Morning,0.4499999999999999,0.05,0.45,True
+U000533,User 533,user533@example.com,2025-10-28,Standard,Riyadh - Olaya,Partnership,2025-10-01,11-50,Founder,Afternoon,0.36,0.77,0.35,True
+U000534,User 534,user534@example.com,2025-08-21,Flex,Riyadh - Olaya,Referral,2025-08-01,11-50,Other,Afternoon,0.16,0.31,0.49,True
+U000535,User 535,user535@example.com,2025-09-05,Pro,Riyadh - Olaya,Organic,2025-09-01,11-50,Other,Midday,0.19,0.09,0.5299999999999999,True
+U000536,User 536,user536@example.com,2025-08-10,Standard,Riyadh - Olaya,Referral,2025-08-01,11-50,Analyst,Afternoon,0.41,0.02,0.41,True
+U000537,User 537,user537@example.com,2025-10-12,Flex,Riyadh - Olaya,Organic,2025-10-01,2-10,Sales,Midday,0.39,0.58,0.3399999999999999,True
+U000538,User 538,user538@example.com,2025-08-24,Standard,Dammam - Waterfront,Organic,2025-08-01,51-200,Designer,Midday,0.22,0.75,0.38,True
+U000539,User 539,user539@example.com,2025-10-03,Standard,Riyadh - Olaya,Referral,2025-10-01,200+,Sales,Morning,0.15,0.48,0.3299999999999999,True
+U000540,User 540,user540@example.com,2025-09-18,Flex,Riyadh - Digital City,Organic,2025-09-01,11-50,Analyst,Morning,0.3399999999999999,0.58,0.38,True
+U000541,User 541,user541@example.com,2025-09-05,Pro,Dammam - Waterfront,Partnership,2025-09-01,11-50,Other,Morning,0.37,0.3,0.5399999999999999,True
+U000542,User 542,user542@example.com,2025-10-21,Pro,Jeddah - Corniche,Paid,2025-10-01,11-50,Sales,Midday,0.4599999999999999,0.68,0.6599999999999999,True
+U000543,User 543,user543@example.com,2025-08-24,Enterprise,Jeddah - Corniche,Referral,2025-08-01,51-200,Sales,Afternoon,0.25,0.61,0.6,True
+U000544,User 544,user544@example.com,2025-08-23,Flex,Riyadh - Olaya,Organic,2025-08-01,Solo,Other,Morning,0.53,0.51,0.44,True
+U000545,User 545,user545@example.com,2025-10-01,Enterprise,Jeddah - Corniche,Referral,2025-10-01,Solo,Analyst,Afternoon,0.38,0.88,0.61,True
+U000546,User 546,user546@example.com,2025-09-06,Enterprise,Jeddah - Corniche,Partnership,2025-09-01,2-10,Other,Morning,0.25,0.4,0.5399999999999999,True
+U000547,User 547,user547@example.com,2025-08-12,Enterprise,Dammam - Waterfront,Referral,2025-08-01,Solo,Founder,Morning,0.43,0.3,0.5599999999999999,True
+U000548,User 548,user548@example.com,2025-09-24,Pro,Dammam - Waterfront,Referral,2025-09-01,11-50,Designer,Midday,0.4,0.84,0.5299999999999999,True
+U000549,User 549,user549@example.com,2025-08-13,Flex,Riyadh - Olaya,Organic,2025-08-01,11-50,Other,Morning,0.3,0.83,0.32,True
+U000550,User 550,user550@example.com,2025-08-23,Enterprise,Riyadh - Olaya,Partnership,2025-08-01,11-50,Analyst,Morning,0.49,0.21,0.69,True
+U000551,User 551,user551@example.com,2025-10-28,Flex,Dammam - Waterfront,Paid,2025-10-01,2-10,Engineer,Midday,0.3399999999999999,0.03,0.47,True
+U000552,User 552,user552@example.com,2025-08-30,Flex,Jeddah - Corniche,Paid,2025-08-01,11-50,Founder,Afternoon,0.1699999999999999,0.12,0.48,True
+U000553,User 553,user553@example.com,2025-08-17,Pro,Riyadh - Olaya,Organic,2025-08-01,Solo,Engineer,Morning,0.15,0.44,0.6399999999999999,True
+U000554,User 554,user554@example.com,2025-10-01,Enterprise,Jeddah - Corniche,Referral,2025-10-01,51-200,Other,Midday,0.15,0.41,0.5299999999999999,True
+U000555,User 555,user555@example.com,2025-10-23,Enterprise,Riyadh - Olaya,Organic,2025-10-01,51-200,Founder,Morning,0.31,0.48,0.61,True
+U000556,User 556,user556@example.com,2025-10-28,Flex,Jeddah - Corniche,Organic,2025-10-01,200+,Designer,Midday,0.16,0.19,0.44,True
+U000557,User 557,user557@example.com,2025-10-25,Standard,Dammam - Waterfront,Organic,2025-10-01,Solo,Other,Afternoon,0.43,0.76,0.43,True
+U000558,User 558,user558@example.com,2025-08-13,Pro,Jeddah - Corniche,Referral,2025-08-01,11-50,Designer,Afternoon,0.3399999999999999,0.8,0.6499999999999999,True
+U000559,User 559,user559@example.com,2025-09-28,Pro,Dammam - Waterfront,Partnership,2025-09-01,51-200,Sales,Midday,0.2,0.53,0.7,True
+U000560,User 560,user560@example.com,2025-08-19,Pro,Jeddah - Corniche,Organic,2025-08-01,Solo,Engineer,Midday,0.22,0.35,0.6699999999999999,True
+U000561,User 561,user561@example.com,2025-09-18,Pro,Dammam - Waterfront,Referral,2025-09-01,51-200,Founder,Midday,0.43,0.0,0.57,True
+U000562,User 562,user562@example.com,2025-08-12,Enterprise,Riyadh - Olaya,Partnership,2025-08-01,11-50,Designer,Afternoon,0.47,0.14,0.5399999999999999,True
+U000563,User 563,user563@example.com,2025-09-30,Enterprise,Jeddah - Corniche,Organic,2025-09-01,51-200,Analyst,Morning,0.1699999999999999,0.76,0.51,True
+U000564,User 564,user564@example.com,2025-08-19,Standard,Jeddah - Corniche,Paid,2025-08-01,200+,Designer,Afternoon,0.49,0.16,0.3299999999999999,True
+U000565,User 565,user565@example.com,2025-10-15,Pro,Riyadh - Olaya,Partnership,2025-10-01,200+,Analyst,Midday,0.19,0.23,0.6,True
+U000566,User 566,user566@example.com,2025-08-09,Pro,Riyadh - Digital City,Organic,2025-08-01,51-200,Other,Midday,0.41,0.57,0.57,True
+U000567,User 567,user567@example.com,2025-10-10,Flex,Jeddah - Corniche,Partnership,2025-10-01,Solo,Founder,Afternoon,0.26,0.71,0.42,True
+U000568,User 568,user568@example.com,2025-08-28,Enterprise,Riyadh - Digital City,Partnership,2025-08-01,Solo,Designer,Midday,0.3399999999999999,0.22,0.5599999999999999,True
+U000569,User 569,user569@example.com,2025-10-17,Pro,Riyadh - Digital City,Partnership,2025-10-01,Solo,Designer,Afternoon,0.3399999999999999,0.45,0.59,True
+U000570,User 570,user570@example.com,2025-09-21,Standard,Jeddah - Corniche,Partnership,2025-09-01,51-200,Founder,Midday,0.2299999999999999,0.71,0.41,True
+U000571,User 571,user571@example.com,2025-10-22,Standard,Dammam - Waterfront,Partnership,2025-10-01,Solo,Designer,Morning,0.53,0.07,0.32,True
+U000572,User 572,user572@example.com,2025-08-16,Enterprise,Jeddah - Corniche,Partnership,2025-08-01,11-50,Analyst,Morning,0.18,0.58,0.52,True
+U000573,User 573,user573@example.com,2025-10-08,Standard,Dammam - Waterfront,Organic,2025-10-01,200+,Designer,Midday,0.3299999999999999,0.89,0.45,True
+U000574,User 574,user574@example.com,2025-08-12,Standard,Riyadh - Olaya,Paid,2025-08-01,11-50,Engineer,Afternoon,0.52,0.58,0.31,True
+U000575,User 575,user575@example.com,2025-08-25,Enterprise,Dammam - Waterfront,Referral,2025-08-01,Solo,Other,Morning,0.41,0.12,0.6499999999999999,True
+U000576,User 576,user576@example.com,2025-09-21,Pro,Dammam - Waterfront,Partnership,2025-09-01,11-50,Sales,Afternoon,0.27,0.38,0.6299999999999999,True
+U000577,User 577,user577@example.com,2025-10-24,Pro,Riyadh - Olaya,Referral,2025-10-01,Solo,Analyst,Midday,0.27,0.27,0.7,True
+U000578,User 578,user578@example.com,2025-09-22,Standard,Jeddah - Corniche,Organic,2025-09-01,51-200,Engineer,Afternoon,0.36,0.88,0.3399999999999999,True
+U000579,User 579,user579@example.com,2025-08-23,Standard,Jeddah - Corniche,Partnership,2025-08-01,11-50,Other,Morning,0.42,0.6,0.3399999999999999,True
+U000580,User 580,user580@example.com,2025-08-16,Pro,Dammam - Waterfront,Paid,2025-08-01,51-200,Founder,Afternoon,0.36,0.15,0.5599999999999999,True
+U000581,User 581,user581@example.com,2025-09-26,Enterprise,Riyadh - Olaya,Referral,2025-09-01,51-200,Analyst,Afternoon,0.3299999999999999,0.01,0.6399999999999999,True
+U000582,User 582,user582@example.com,2025-09-08,Standard,Dammam - Waterfront,Partnership,2025-09-01,2-10,Sales,Midday,0.22,0.81,0.32,True
+U000583,User 583,user583@example.com,2025-09-22,Flex,Riyadh - Olaya,Organic,2025-09-01,Solo,Other,Midday,0.22,0.16,0.48,True
+U000584,User 584,user584@example.com,2025-09-11,Enterprise,Jeddah - Corniche,Paid,2025-09-01,200+,Sales,Midday,0.4,0.29,0.6,True
+U000585,User 585,user585@example.com,2025-09-27,Standard,Riyadh - Digital City,Referral,2025-09-01,Solo,Founder,Morning,0.4,0.12,0.31,True
+U000586,User 586,user586@example.com,2025-09-08,Standard,Jeddah - Corniche,Referral,2025-09-01,200+,Founder,Morning,0.37,0.81,0.32,True
+U000587,User 587,user587@example.com,2025-08-14,Flex,Jeddah - Corniche,Partnership,2025-08-01,Solo,Analyst,Midday,0.27,0.12,0.42,True
+U000588,User 588,user588@example.com,2025-08-05,Flex,Riyadh - Digital City,Paid,2025-08-01,51-200,Designer,Midday,0.42,0.42,0.41,True
+U000589,User 589,user589@example.com,2025-09-04,Pro,Jeddah - Corniche,Paid,2025-09-01,11-50,Founder,Morning,0.2299999999999999,0.84,0.69,True
+U000590,User 590,user590@example.com,2025-10-26,Enterprise,Riyadh - Olaya,Paid,2025-10-01,11-50,Other,Morning,0.3399999999999999,0.2,0.7,True
+U000591,User 591,user591@example.com,2025-10-14,Enterprise,Riyadh - Olaya,Paid,2025-10-01,2-10,Designer,Morning,0.3299999999999999,0.54,0.5499999999999999,True
+U000592,User 592,user592@example.com,2025-08-18,Pro,Jeddah - Corniche,Organic,2025-08-01,200+,Engineer,Morning,0.53,0.8,0.5299999999999999,True
+U000593,User 593,user593@example.com,2025-10-15,Enterprise,Riyadh - Olaya,Paid,2025-10-01,200+,Sales,Midday,0.26,0.39,0.5399999999999999,True
+U000594,User 594,user594@example.com,2025-08-09,Enterprise,Riyadh - Olaya,Referral,2025-08-01,200+,Designer,Morning,0.29,0.82,0.6499999999999999,True
+U000595,User 595,user595@example.com,2025-10-13,Enterprise,Jeddah - Corniche,Referral,2025-10-01,51-200,Sales,Midday,0.4499999999999999,0.14,0.57,True
+U000596,User 596,user596@example.com,2025-09-27,Enterprise,Riyadh - Digital City,Organic,2025-09-01,200+,Designer,Afternoon,0.28,0.72,0.5599999999999999,True
+U000597,User 597,user597@example.com,2025-08-17,Enterprise,Jeddah - Corniche,Referral,2025-08-01,11-50,Engineer,Afternoon,0.25,0.51,0.57,True
+U000598,User 598,user598@example.com,2025-08-07,Flex,Dammam - Waterfront,Referral,2025-08-01,51-200,Founder,Morning,0.4,0.73,0.48,True
+U000599,User 599,user599@example.com,2025-09-15,Enterprise,Riyadh - Olaya,Paid,2025-09-01,Solo,Engineer,Afternoon,0.41,0.52,0.52,True
+U000600,User 600,user600@example.com,2025-08-13,Flex,Dammam - Waterfront,Referral,2025-08-01,200+,Founder,Afternoon,0.25,0.86,0.39,True
+U000601,User 601,user601@example.com,2025-09-09,Enterprise,Riyadh - Olaya,Organic,2025-09-01,200+,Founder,Afternoon,0.52,0.51,0.69,True
+U000602,User 602,user602@example.com,2025-09-11,Pro,Riyadh - Olaya,Paid,2025-09-01,Solo,Sales,Morning,0.48,0.29,0.6799999999999999,True
+U000603,User 603,user603@example.com,2025-08-09,Standard,Jeddah - Corniche,Partnership,2025-08-01,200+,Other,Morning,0.3299999999999999,0.32,0.3299999999999999,True
+U000604,User 604,user604@example.com,2025-09-19,Flex,Riyadh - Olaya,Paid,2025-09-01,Solo,Engineer,Afternoon,0.2,0.56,0.5,True
+U000605,User 605,user605@example.com,2025-08-27,Enterprise,Jeddah - Corniche,Organic,2025-08-01,51-200,Designer,Midday,0.52,0.51,0.51,True
+U000606,User 606,user606@example.com,2025-10-05,Pro,Riyadh - Olaya,Paid,2025-10-01,11-50,Engineer,Afternoon,0.42,0.08,0.6499999999999999,True
+U000607,User 607,user607@example.com,2025-08-05,Standard,Riyadh - Digital City,Paid,2025-08-01,Solo,Sales,Morning,0.15,0.53,0.46,True
+U000608,User 608,user608@example.com,2025-08-29,Flex,Dammam - Waterfront,Organic,2025-08-01,2-10,Founder,Morning,0.49,0.0,0.5,True
+U000609,User 609,user609@example.com,2025-09-06,Standard,Jeddah - Corniche,Paid,2025-09-01,Solo,Sales,Morning,0.54,0.43,0.32,True
+U000610,User 610,user610@example.com,2025-09-07,Pro,Riyadh - Digital City,Organic,2025-09-01,200+,Analyst,Afternoon,0.22,0.74,0.7,True
+U000611,User 611,user611@example.com,2025-10-22,Flex,Riyadh - Digital City,Organic,2025-10-01,51-200,Analyst,Midday,0.21,0.79,0.35,True
+U000612,User 612,user612@example.com,2025-08-08,Standard,Riyadh - Digital City,Partnership,2025-08-01,51-200,Designer,Morning,0.25,0.08,0.39,True
+U000613,User 613,user613@example.com,2025-10-04,Enterprise,Riyadh - Digital City,Referral,2025-10-01,Solo,Sales,Morning,0.53,0.31,0.6299999999999999,True
+U000614,User 614,user614@example.com,2025-10-25,Flex,Jeddah - Corniche,Referral,2025-10-01,11-50,Designer,Afternoon,0.18,0.14,0.35,True
+U000615,User 615,user615@example.com,2025-08-17,Standard,Riyadh - Olaya,Paid,2025-08-01,2-10,Designer,Midday,0.39,0.11,0.5,True
+U000616,User 616,user616@example.com,2025-10-10,Pro,Riyadh - Olaya,Paid,2025-10-01,51-200,Analyst,Afternoon,0.26,0.77,0.6699999999999999,True
+U000617,User 617,user617@example.com,2025-10-28,Pro,Riyadh - Olaya,Partnership,2025-10-01,200+,Designer,Morning,0.4,0.56,0.61,True
+U000618,User 618,user618@example.com,2025-09-14,Flex,Dammam - Waterfront,Partnership,2025-09-01,200+,Analyst,Midday,0.52,0.07,0.4,True
+U000619,User 619,user619@example.com,2025-08-04,Standard,Riyadh - Digital City,Partnership,2025-08-01,11-50,Founder,Midday,0.26,0.71,0.3399999999999999,True
+U000620,User 620,user620@example.com,2025-09-05,Flex,Dammam - Waterfront,Organic,2025-09-01,51-200,Sales,Morning,0.51,0.26,0.44,True
+U000621,User 621,user621@example.com,2025-10-09,Flex,Riyadh - Digital City,Partnership,2025-10-01,Solo,Designer,Midday,0.38,0.61,0.39,True
+U000622,User 622,user622@example.com,2025-08-31,Standard,Riyadh - Olaya,Partnership,2025-08-01,200+,Analyst,Midday,0.3,0.11,0.44,True
+U000623,User 623,user623@example.com,2025-08-19,Standard,Riyadh - Digital City,Paid,2025-08-01,11-50,Engineer,Afternoon,0.27,0.64,0.39,True
+U000624,User 624,user624@example.com,2025-09-30,Enterprise,Riyadh - Olaya,Partnership,2025-09-01,51-200,Designer,Morning,0.39,0.41,0.5599999999999999,True
+U000625,User 625,user625@example.com,2025-09-23,Standard,Riyadh - Olaya,Organic,2025-09-01,51-200,Other,Morning,0.18,0.61,0.49,True
+U000626,User 626,user626@example.com,2025-09-08,Pro,Riyadh - Digital City,Organic,2025-09-01,51-200,Founder,Morning,0.25,0.1,0.57,True
+U000627,User 627,user627@example.com,2025-10-30,Flex,Jeddah - Corniche,Paid,2025-10-01,51-200,Founder,Morning,0.4599999999999999,0.42,0.38,True
+U000628,User 628,user628@example.com,2025-10-13,Flex,Jeddah - Corniche,Partnership,2025-10-01,51-200,Engineer,Morning,0.21,0.16,0.47,True
+U000629,User 629,user629@example.com,2025-10-29,Pro,Dammam - Waterfront,Partnership,2025-10-01,200+,Analyst,Midday,0.25,0.31,0.57,True
+U000630,User 630,user630@example.com,2025-08-19,Standard,Riyadh - Olaya,Organic,2025-08-01,11-50,Designer,Afternoon,0.42,0.84,0.37,True
+U000631,User 631,user631@example.com,2025-09-08,Pro,Riyadh - Olaya,Partnership,2025-09-01,51-200,Analyst,Morning,0.37,0.84,0.5499999999999999,True
+U000632,User 632,user632@example.com,2025-10-06,Pro,Dammam - Waterfront,Partnership,2025-10-01,2-10,Founder,Afternoon,0.37,0.39,0.6399999999999999,True
+U000633,User 633,user633@example.com,2025-09-14,Enterprise,Jeddah - Corniche,Partnership,2025-09-01,2-10,Analyst,Afternoon,0.42,0.22,0.52,True
+U000634,User 634,user634@example.com,2025-08-13,Pro,Riyadh - Olaya,Referral,2025-08-01,11-50,Founder,Midday,0.4,0.55,0.69,True
+U000635,User 635,user635@example.com,2025-10-31,Flex,Riyadh - Olaya,Paid,2025-10-01,Solo,Analyst,Morning,0.39,0.05,0.41,True
+U000636,User 636,user636@example.com,2025-09-27,Pro,Jeddah - Corniche,Referral,2025-09-01,Solo,Engineer,Midday,0.43,0.85,0.5299999999999999,True
+U000637,User 637,user637@example.com,2025-08-20,Flex,Riyadh - Digital City,Paid,2025-08-01,Solo,Sales,Morning,0.3299999999999999,0.49,0.3399999999999999,True
+U000638,User 638,user638@example.com,2025-10-31,Flex,Riyadh - Olaya,Organic,2025-10-01,2-10,Engineer,Midday,0.47,0.36,0.46,True
+U000639,User 639,user639@example.com,2025-10-11,Flex,Riyadh - Olaya,Partnership,2025-10-01,Solo,Engineer,Afternoon,0.5,0.63,0.39,True
+U000640,User 640,user640@example.com,2025-09-30,Standard,Dammam - Waterfront,Paid,2025-09-01,200+,Sales,Morning,0.28,0.53,0.45,True
+U000641,User 641,user641@example.com,2025-09-08,Enterprise,Jeddah - Corniche,Referral,2025-09-01,51-200,Sales,Afternoon,0.28,0.71,0.62,True
+U000642,User 642,user642@example.com,2025-08-01,Flex,Riyadh - Digital City,Partnership,2025-08-01,2-10,Designer,Afternoon,0.49,0.48,0.31,True
+U000643,User 643,user643@example.com,2025-08-03,Flex,Jeddah - Corniche,Organic,2025-08-01,11-50,Designer,Midday,0.4399999999999999,0.1,0.5,True
+U000644,User 644,user644@example.com,2025-10-16,Standard,Dammam - Waterfront,Paid,2025-10-01,11-50,Engineer,Morning,0.42,0.87,0.36,True
+U000645,User 645,user645@example.com,2025-10-31,Flex,Riyadh - Olaya,Paid,2025-10-01,51-200,Engineer,Afternoon,0.31,0.48,0.45,True
+U000646,User 646,user646@example.com,2025-10-01,Pro,Jeddah - Corniche,Paid,2025-10-01,2-10,Founder,Midday,0.1699999999999999,0.2,0.52,True
+U000647,User 647,user647@example.com,2025-10-02,Pro,Riyadh - Digital City,Partnership,2025-10-01,Solo,Founder,Morning,0.3,0.65,0.5299999999999999,True
+U000648,User 648,user648@example.com,2025-08-25,Enterprise,Riyadh - Digital City,Referral,2025-08-01,Solo,Designer,Morning,0.4399999999999999,0.62,0.6499999999999999,True
+U000649,User 649,user649@example.com,2025-09-25,Flex,Jeddah - Corniche,Referral,2025-09-01,200+,Other,Afternoon,0.43,0.82,0.38,True
+U000650,User 650,user650@example.com,2025-09-02,Standard,Dammam - Waterfront,Paid,2025-09-01,200+,Other,Morning,0.29,0.27,0.5,True
+U000651,User 651,user651@example.com,2025-09-07,Pro,Jeddah - Corniche,Organic,2025-09-01,Solo,Designer,Afternoon,0.39,0.16,0.58,True
+U000652,User 652,user652@example.com,2025-08-06,Standard,Jeddah - Corniche,Organic,2025-08-01,11-50,Founder,Morning,0.52,0.05,0.44,True
+U000653,User 653,user653@example.com,2025-09-27,Standard,Jeddah - Corniche,Referral,2025-09-01,11-50,Founder,Midday,0.52,0.18,0.36,True
+U000654,User 654,user654@example.com,2025-09-13,Pro,Dammam - Waterfront,Organic,2025-09-01,200+,Other,Afternoon,0.37,0.55,0.59,True
+U000655,User 655,user655@example.com,2025-09-14,Standard,Riyadh - Digital City,Referral,2025-09-01,51-200,Analyst,Afternoon,0.39,0.27,0.5,True
+U000656,User 656,user656@example.com,2025-09-01,Pro,Riyadh - Olaya,Paid,2025-09-01,Solo,Analyst,Morning,0.21,0.65,0.5599999999999999,True
+U000657,User 657,user657@example.com,2025-09-14,Standard,Jeddah - Corniche,Referral,2025-09-01,200+,Founder,Morning,0.36,0.37,0.47,True
+U000658,User 658,user658@example.com,2025-09-30,Pro,Jeddah - Corniche,Referral,2025-09-01,200+,Analyst,Afternoon,0.31,0.36,0.58,True
+U000659,User 659,user659@example.com,2025-09-16,Flex,Riyadh - Olaya,Paid,2025-09-01,Solo,Sales,Morning,0.32,0.67,0.46,True
+U000660,User 660,user660@example.com,2025-08-21,Enterprise,Dammam - Waterfront,Organic,2025-08-01,Solo,Designer,Midday,0.24,0.85,0.69,True
+U000661,User 661,user661@example.com,2025-10-19,Pro,Dammam - Waterfront,Referral,2025-10-01,11-50,Designer,Morning,0.24,0.89,0.7,True
+U000662,User 662,user662@example.com,2025-10-24,Pro,Riyadh - Olaya,Referral,2025-10-01,51-200,Founder,Midday,0.21,0.48,0.5499999999999999,True
+U000663,User 663,user663@example.com,2025-10-14,Enterprise,Riyadh - Olaya,Paid,2025-10-01,51-200,Engineer,Midday,0.52,0.42,0.6499999999999999,True
+U000664,User 664,user664@example.com,2025-09-05,Pro,Riyadh - Digital City,Organic,2025-09-01,Solo,Other,Midday,0.41,0.35,0.5499999999999999,True
+U000665,User 665,user665@example.com,2025-08-19,Pro,Riyadh - Digital City,Referral,2025-08-01,2-10,Founder,Midday,0.47,0.57,0.57,True
+U000666,User 666,user666@example.com,2025-08-20,Standard,Riyadh - Olaya,Paid,2025-08-01,200+,Analyst,Midday,0.15,0.12,0.48,True
+U000667,User 667,user667@example.com,2025-09-26,Enterprise,Jeddah - Corniche,Referral,2025-09-01,200+,Other,Morning,0.48,0.51,0.5599999999999999,True
+U000668,User 668,user668@example.com,2025-08-18,Flex,Jeddah - Corniche,Partnership,2025-08-01,Solo,Engineer,Midday,0.18,0.57,0.48,True
+U000669,User 669,user669@example.com,2025-09-16,Pro,Riyadh - Digital City,Paid,2025-09-01,2-10,Analyst,Morning,0.31,0.31,0.69,True
+U000670,User 670,user670@example.com,2025-09-18,Enterprise,Jeddah - Corniche,Organic,2025-09-01,11-50,Sales,Midday,0.18,0.8,0.7,True
+U000671,User 671,user671@example.com,2025-08-14,Standard,Dammam - Waterfront,Organic,2025-08-01,Solo,Analyst,Afternoon,0.4,0.59,0.42,True
+U000672,User 672,user672@example.com,2025-08-15,Flex,Riyadh - Olaya,Organic,2025-08-01,Solo,Sales,Midday,0.18,0.82,0.42,True
+U000673,User 673,user673@example.com,2025-08-31,Enterprise,Jeddah - Corniche,Organic,2025-08-01,200+,Other,Afternoon,0.15,0.57,0.6399999999999999,True
+U000674,User 674,user674@example.com,2025-08-01,Flex,Dammam - Waterfront,Referral,2025-08-01,Solo,Sales,Midday,0.21,0.55,0.48,True
+U000675,User 675,user675@example.com,2025-09-23,Flex,Dammam - Waterfront,Referral,2025-09-01,Solo,Other,Midday,0.4399999999999999,0.27,0.3299999999999999,True
+U000676,User 676,user676@example.com,2025-08-03,Flex,Dammam - Waterfront,Organic,2025-08-01,Solo,Other,Midday,0.2299999999999999,0.0,0.4,True
+U000677,User 677,user677@example.com,2025-08-16,Pro,Riyadh - Olaya,Organic,2025-08-01,200+,Other,Afternoon,0.49,0.41,0.6399999999999999,True
+U000678,User 678,user678@example.com,2025-10-26,Pro,Riyadh - Digital City,Organic,2025-10-01,11-50,Other,Afternoon,0.22,0.81,0.62,True
+U000679,User 679,user679@example.com,2025-09-26,Standard,Riyadh - Digital City,Referral,2025-09-01,11-50,Other,Midday,0.38,0.47,0.5,True
+U000680,User 680,user680@example.com,2025-10-14,Standard,Jeddah - Corniche,Organic,2025-10-01,Solo,Analyst,Morning,0.3299999999999999,0.39,0.37,True
+U000681,User 681,user681@example.com,2025-08-12,Enterprise,Riyadh - Olaya,Organic,2025-08-01,200+,Other,Midday,0.5,0.62,0.51,True
+U000682,User 682,user682@example.com,2025-10-13,Standard,Dammam - Waterfront,Partnership,2025-10-01,11-50,Analyst,Afternoon,0.41,0.75,0.45,True
+U000683,User 683,user683@example.com,2025-08-16,Flex,Jeddah - Corniche,Partnership,2025-08-01,11-50,Other,Midday,0.4599999999999999,0.71,0.44,True
+U000684,User 684,user684@example.com,2025-10-11,Flex,Riyadh - Digital City,Organic,2025-10-01,11-50,Sales,Afternoon,0.28,0.87,0.41,True
+U000685,User 685,user685@example.com,2025-10-15,Pro,Dammam - Waterfront,Paid,2025-10-01,200+,Other,Afternoon,0.32,0.79,0.6399999999999999,True
+U000686,User 686,user686@example.com,2025-08-24,Flex,Riyadh - Digital City,Organic,2025-08-01,200+,Engineer,Afternoon,0.42,0.03,0.49,True
+U000687,User 687,user687@example.com,2025-08-28,Enterprise,Riyadh - Digital City,Partnership,2025-08-01,Solo,Other,Midday,0.43,0.37,0.6699999999999999,True
+U000688,User 688,user688@example.com,2025-08-08,Flex,Riyadh - Digital City,Paid,2025-08-01,51-200,Other,Afternoon,0.3,0.26,0.3399999999999999,True
+U000689,User 689,user689@example.com,2025-10-31,Flex,Riyadh - Olaya,Paid,2025-10-01,11-50,Sales,Afternoon,0.49,0.08,0.5,True
+U000690,User 690,user690@example.com,2025-09-05,Enterprise,Riyadh - Olaya,Organic,2025-09-01,51-200,Designer,Midday,0.4499999999999999,0.15,0.61,True
+U000691,User 691,user691@example.com,2025-10-29,Standard,Jeddah - Corniche,Partnership,2025-10-01,200+,Sales,Afternoon,0.18,0.55,0.32,True
+U000692,User 692,user692@example.com,2025-08-08,Standard,Jeddah - Corniche,Partnership,2025-08-01,200+,Engineer,Midday,0.51,0.75,0.36,True
+U000693,User 693,user693@example.com,2025-09-27,Enterprise,Jeddah - Corniche,Paid,2025-09-01,200+,Designer,Afternoon,0.31,0.3,0.61,True
+U000694,User 694,user694@example.com,2025-09-29,Pro,Riyadh - Digital City,Organic,2025-09-01,51-200,Founder,Morning,0.53,0.87,0.52,True
+U000695,User 695,user695@example.com,2025-09-19,Flex,Riyadh - Olaya,Referral,2025-09-01,200+,Founder,Morning,0.4,0.13,0.39,True
+U000696,User 696,user696@example.com,2025-08-28,Enterprise,Riyadh - Olaya,Referral,2025-08-01,Solo,Engineer,Afternoon,0.53,0.24,0.5499999999999999,True
+U000697,User 697,user697@example.com,2025-10-31,Flex,Dammam - Waterfront,Partnership,2025-10-01,200+,Sales,Morning,0.18,0.33,0.42,True
+U000698,User 698,user698@example.com,2025-09-10,Pro,Riyadh - Digital City,Referral,2025-09-01,2-10,Analyst,Midday,0.4399999999999999,0.66,0.5599999999999999,True
+U000699,User 699,user699@example.com,2025-10-03,Flex,Riyadh - Digital City,Partnership,2025-10-01,51-200,Engineer,Morning,0.4399999999999999,0.23,0.3399999999999999,True
+U000700,User 700,user700@example.com,2025-08-27,Enterprise,Dammam - Waterfront,Partnership,2025-08-01,2-10,Designer,Afternoon,0.36,0.72,0.57,True

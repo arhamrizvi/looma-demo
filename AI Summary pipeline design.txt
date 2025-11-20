@@ -1,0 +1,22 @@
+[Looker Embed] → [Filtered data (month, revenue, cost…)] 
+   ↓
+[Small JS summarizer] → calculates change %, trend, averages
+   ↓
+[POST → /summarize_llm]
+   ↓
+[LLM → returns human insight text]
+   ↓
+[Rendered on page: “Revenue grew 18% …”]
+
+
+
+🧩 4. Optional upgrades
+
+| Add-on                   | Description                                                                                              |
+| ------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Forecast endpoint**    | Run Prophet for revenue/cost/profit → append short future insights (“Expected to rise 8% next quarter”). |
+| **Caching**              | Cache `payload` → `text` pairs to avoid repeated LLM calls for same filters.                             |
+| **Narrative categories** | Let user toggle between “Financial Summary”, “User Growth”, “Efficiency”.                                |
+| **Styling**              | Render summary in a small card with icons (📈 Revenue, 💰 Profit, 👥 Users).                             |
+
+

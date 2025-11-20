@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "looma-477106",
+  "private_key_id": "93332243ea94b9d8bc9effec860b300f814a7905",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDpN+2266zpHlGU\n2NiSBxCHMDAMo4Ul5Q7Ym2vlnNUKS8O2TBhUhV0tEiQrpCr0MNylAARrHsLkZt5F\n6G+qDPIcXMxhsqSrBffiaGSezvqaztaGAVvNHtTwtR0c0JthNSaYLlnH0Pz7ii/D\nAnNuC1NYJaoOfFyonLYRRUkg55F6y4ACe7c5JU6JWJvIFEO5GycnmXCYIdylKc8c\nX2PqgXCYHu+UM+R7rQh7+CNobgjXLY8ozuN3kdVoy+Q4lYSY5K5i2u3TXQfui3Bz\n2TyC6ywbb6F28c6VJIa0fFycF5V2TpqYmmfNMWJz/ZM8vhjVRfb5KCmh6EK3wTc/\nubTtFX3VAgMBAAECggEADI8OS4fpx0ydKw1PAvTDb0GT4ievb14kNwY462P51Z9F\nL5zDFftv4ZH1Ba6bq4uyuLtFVvll7a5xG3BMDGsRt0pIrUgqoD+8Mg0vbJ02bJNl\nL6aEvt6BVrcCFX+m+7dE1/QYXJoZ+CJgYQ7RkCRRqCZbFS2dlcIz9xPKlNgzgtph\nO6LZsc1yV1y4fl1U80rB0u26zA2KIp/zHuGiDj6HXY2fmB8mOxaCNECyGOMzBP3L\nkUbGl5Kd3apQokhVvNPOY+UrgcMZixo8sBvhsK4UHX6DlFHjfI7bKkrAAlfAM8Iv\nxLod0PkASA2tD+A2jdypcsi3sWxm8KjvGF0KiIwsvwKBgQD7MxJEZ1n2xm0sRprH\nBXtvcL4yE5OfR0eiS8dyz0Am3WpRI47K4j6h7iFq3QHYIGPerZ6x4cQJgoqyDSEd\nIfy7RUx37apCRu++g6YpEh9St698jk9wuGO1i7NJ1gbcTN0JF2iVV1Dp5X4GLnmv\nPVNZNfymQfuFXWwq1VtYMZ0hSwKBgQDtrOPCr2zQnLMVblx8NYZq4fbpzwpKdcda\ntSS+TV931WaFSaZkZ8wyGhlVhhHNWMeLlAH79DvUXbAlWPmL//0Bm8fuHEBkp/+3\nbRTUdfOBmdGMTM/i7P0wZDZtYSVFxt8+k00hMcOz/3SmV/uHURYTvOU8vH0pT0Rk\n/+JtAr+JXwKBgQDw1NX+ntexsCua91YM2USuYvj2Ka6uVjhncR+XAvwORtlXUS/l\nc2N4/EUtnxXVj7gwFWTARiMcuvseGVhWBe+324ikskc5o6jWjoEPf0BonZKxZ/7h\nouZ1d6o8b+XD8C06OicahswcctmQM56WU8VFEm1XOItcIWVC66rXszliYQKBgQDN\n+bM5GYaYE/UvcYE9M7XWExZE8mTcus2V0r6RHcTKuWorwPQut7XDBdNGxvXOnE3y\nrMY7cCIZnUf2VfGOXr8JEdRmip1TnjSC5knTBpWNj5yGllrjMrcJpQ92I2aF3h/C\nvy1sww/zgkO5lS4qyx7y5BVWWZOupT+EuC2mg2cyyQKBgBFkeOQ3eu2gQElRLpVA\nsZuGAiGXjUNKawMMiDUTVH8WrDK5N25x/6Xvca/jFvm+P0gmMq7ghJLWY/5hWSbm\nfi0yZsZ+Uj2nEAdlCddYwYVCdm1RqbJlzMqu+hGZ7pUpE8wlTHzU3V1EH2qmtmdz\njMBWxaXa35i5eyoNhR8lzImb\n-----END PRIVATE KEY-----\n",
+  "client_email": "looma-insights-sa@looma-477106.iam.gserviceaccount.com",
+  "client_id": "100082058585997648278",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/looma-insights-sa%40looma-477106.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
